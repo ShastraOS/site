@@ -45,12 +45,12 @@ export default function Home() {
         <div className={styles.duoGrid}>
           <section>
             <ul>
-              <li>Web3 Based Linux OS</li>
-              <li>Comes with Brave Default Browser</li>
+              <li>An OS for The Next Gen</li>
+              <li>Privacy Redefined- Comes with Brave Default Browser</li>
               <li>Easy to Use</li>
               <li>Enhanced privacy and protection</li>
               <li>Latest Gnome Desktop Environment</li>
-              <li>Easy to install applications through Pamac</li>
+              <li>Easy to install applications through PaMac</li>
             </ul>
           </section>
           <section className={styles.padding2em}>

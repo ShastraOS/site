@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
+
+.main {
+	font-family: "Sawarabi Gothic", sans-serif;
+}
+
+.footer a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.title {
+	line-height: 1.15;
+	font-size: 4rem;
+	color: #1b1714;
+	margin-top: 1em;
+}
+
+.headStyle {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+.headStyle h1 {
+	font-size: 4rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: #181512;
+	margin: 0;
+}
+.headStyle span {
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 0.3em 0.6em;
+	background-color: rgb(238, 238, 238);
+	color: rgb(131, 125, 115);
+}
+
+.buttonGap {
+	display: flex;
+}
+
+.buttonGap button {
+	margin-top: 1em;
+	margin-right: 1em;
+}
+.icon {
+	font-size: large;
+}
+
+.description {
+	font-size: 1.5rem;
+}
+
+.duoGrid {
+	display: grid;
+}
+.duoGrid section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.padding2em {
+	padding: 2em;
+}
+.duoGrid .aboutScroll {
+	overflow-y: scroll;
+	padding: 1em 1em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.carousel {
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	height: min-content;
+	margin: auto 0;
+	border-radius: 50px;
+}
+
+.carousel .card {
+	margin: 1rem;
+	padding: 1rem;
+	border: 2px solid rgb(238, 238, 238);
+	border-radius: 10px;
+	min-width: 500px;
+	height: min-content;
+}
+
+.logo {
+	height: 1em;
+	margin-left: 0.5rem;
+}
+
+@media (min-width: 500px) {
+	.main {
+		padding: 0rem 1rem;
+		overflow: hidden;
+	}
+	.duoGrid {
+		margin-top: 8%;
+		grid-template-columns: 1fr;
+	}
+	.duoGrid li {
+		font-size: 16px;
+	}
+}
+@media (max-width: 501px) and (min-width: 1270px) {
+	.main {
+		padding: 0rem 3rem;
+		overflow: hidden;
+	}
+	.duoGrid {
+		grid-template-columns: 1fr;
+	}
+	.duoGrid li {
+		font-size: 20px;
+	}
+}
+@media (min-width: 1271px) {
+	.main {
+		padding: 0rem 10rem;
+	}
+	.duoGrid {
+		margin-top: -8%;
+		grid-template-columns: 1fr 1fr;
+		height: 100vh;
+	}
+	.duoGrid li {
+		font-size: 22px;
+	}
+}

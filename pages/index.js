@@ -45,7 +45,7 @@ export default function Home() {
         <div className={styles.duoGrid}>
           <section>
             <ul>
-              <li>An OS for The Next Gen</li>
+              <li>An OS for The Next Gen of the Web</li>
               <li>Privacy Redefined- Comes with Brave Default Browser</li>
               <li>Easy to Use</li>
               <li>Enhanced privacy and protection</li>
@@ -57,7 +57,7 @@ export default function Home() {
             <h1 className={styles.title}>Shastra Pre-Realese</h1>
             <h2>Download pre-release virsion of shastra from sourceforge</h2>
             <p className={styles.description}>
-              This is a pre-release version of shastra. You may find some installation issues but hold on till official first release od Shastra OS.
+              This is a pre-release version of Shastra. You may face some installation issues but hold on till official first release od Shastra OS.
               Which is Shastra Dignity coming with latest gnome 42.
             </p>
           </section>

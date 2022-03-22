@@ -55,7 +55,7 @@ export default function Home() {
           </section>
           <section className={styles.padding2em}>
             <h1 className={styles.title}>Shastra Pre-Realese</h1>
-            <h2>Download pre-release virsion of shastra from sourceforge</h2>
+            <h2>Download pre-release version of Shastra from Sourceforge</h2>
             <p className={styles.description}>
               This is a pre-release version of Shastra. You may face some installation issues but hold on till official first release od Shastra OS.
               Which is Shastra Dignity coming with latest gnome 42.

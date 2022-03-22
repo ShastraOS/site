@@ -99,6 +99,9 @@ export default function Home() {
         >
           Vivek Pal
         </a>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
       </footer>
     </div >
   )

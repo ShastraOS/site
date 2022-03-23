@@ -23,9 +23,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.duoGrid}>
           <section className={styles.padding2em}>
-            <h2>A Web3 OS</h2>
+            <h2>An OS for the Web3</h2>
             <div className={styles.headStyle}>
-              <h1>ShastraOS</h1>
+              <h1>ShastraOS- Dignity</h1>
               {/* <span>v{versionData}</span> */}
             </div>
             <div className={styles.buttonGap}>
@@ -86,7 +86,7 @@ export default function Home() {
         <a href="usage">GUIDE</a>
         <a href="about">ABOUT</a>
         <a
-          href="https://www.linkedin.com/in/akshatcoder/"
+          href="https://github/akshatcoder-hash/"
           target="_blank"
           rel="noopener noreferrer"
         >

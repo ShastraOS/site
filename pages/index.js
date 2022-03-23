@@ -86,7 +86,7 @@ export default function Home() {
         <a href="usage">GUIDE</a>
         <a href="about">ABOUT</a>
         <a
-          href="https://github/akshatcoder-hash/"
+          href="https://bit.ly/3tPOaOz"
           target="_blank"
           rel="noopener noreferrer"
         >

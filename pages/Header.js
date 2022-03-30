@@ -11,7 +11,7 @@ export default function Header() {
                 <img src="shastralogo.png" />
             </a>
             <div className="alignItems">
-                <button className={styles.blueBtn} onClick={() => { window.open('https://sourceforge.net/projects/shastra/files/latest/download', "_blank") }}><MdOutlineDownload className={styles.icon}/>Download</button>
+                <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/projects/shastraos/downloads/77092/Shastra-pre-2022.03.31-x86_64.iso/', "_blank") }}><MdOutlineDownload className={styles.icon}/>Download</button>
             </div>
         </header>
     )

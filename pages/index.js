@@ -29,7 +29,7 @@ export default function Home() {
               {/* <span>v{versionData}</span> */}
             </div>
             <div className={styles.buttonGap}>
-              <button className={styles.blueBtn} onClick={() => { window.open('https://sourceforge.net/projects/shastra/files/latest/download/', "_blank") }}><MdOutlineDownload className={styles.icon}/>Download</button>
+              <button className={styles.blueBtn} onClick={() => { window.open('bit.ly/shastraos/', "_blank") }}><MdOutlineDownload className={styles.icon}/>Download</button>
               <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
             </div>
           </section>

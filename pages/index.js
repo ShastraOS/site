@@ -4,6 +4,8 @@ import { useState } from 'react'
 import styles from '../styles/Home.module.css'
 import { WindowMockup } from 'react-mockup'
 import 'react-mockup/dist/index.css'
+import 'html5-device-mockups/dist/device-mockups.min.css';
+import { Macbook, Chromebook } from 'react-device-mockups';
 import Header from './Header'
 import { MdOutlineOpenInBrowser,MdCode, MdOutlineDownload } from "react-icons/md";
 
@@ -29,16 +31,25 @@ export default function Home() {
               {/* <span>v{versionData}</span> */}
             </div>
             <div className={styles.buttonGap}>
-              <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.07-x86_64.iso', "_blank") }}><MdOutlineDownload className={styles.icon}/>Download</button>
+              <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.07-x86_64.iso', "_blank") }}><MdOutlineDownload className={styles.icon}/>Install</button>
               <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
             </div>
           </section>
           <section className="mockupContainer">
-            <WindowMockup
+            {/* <WindowMockup
               src="/screen02.png"
               type="mac"
               color="black"
-            />
+            /> */}
+            <Macbook width={800} orientation='landscape' color='black' buttonProps={ {
+                onClick: () => alert('Home Button Clicked!')
+            } }>
+                <iframe title='showcase' src='/screen02.png' style={ {
+                    width: '100%',
+                    height: '100%',
+                    margin: 0
+                } }/>
+            </Macbook>
           </section>
         </div>
 
@@ -49,15 +60,16 @@ export default function Home() {
               <li>Privacy Redefined- Comes with Brave Default Browser</li>
               <li>Easy to Use</li>
               <li>Enhanced privacy and protection</li>
-              <li>Latest Gnome Desktop Environment</li>
-              <li>Easy to install applications through PaMac</li>
+              <li>Latest Gnome 42 Desktop Environment</li>
+              <li>Easy to install applications through Pamac</li>
             </ul>
           </section>
           <section className={styles.padding2em}>
-            <h1 className={styles.title}>Shastra Pre-Realese</h1>
-            <h2>Download pre-release version of Shastra from Sourceforge</h2>
+            <h1 className={styles.title}>Shastra Dignity Beta</h1>
+            <h2>Beta version of Shastra Dignity is out there! Dignity is the very first version of ShastraOS</h2>
             <p className={styles.description}>
-              This is a pre-release version of Shastra. You may face some installation issues but hold on till official first release od Shastra OS.
+              Anyone can help us in contributing in Shastra Project. Beta version is released to git you an essence of upcoming ShastraOS versions. You can run it on your PC and test it out.
+              You may face some installation issues but hold on till official first release of Shastra OS.
               Which is Shastra Dignity coming with latest gnome 42.
             </p>
           </section>
@@ -68,8 +80,8 @@ export default function Home() {
           <section className={styles.padding2em}>
             <h1 className={styles.title}>Upcoming flavours of Shastra</h1>
             <h2>Gnome &rarr;</h2>
-            <h2>Cinnamon &rarr;</h2>
-            <h2>Budgie (Not Developed) &rarr;</h2>
+            <h2>Gnome Lite &rarr;</h2>
+            <h2>Cinnamon (Not Developed) &rarr;</h2>
           </section>
           <div className={styles.carousel}>
             <div className={styles.card}>
@@ -83,7 +95,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a href="usage">GUIDE</a>
+        <a href="guide">GUIDE</a>
         <a href="about">ABOUT</a>
         <a
           href="https://bit.ly/3tPOaOz"
@@ -99,8 +111,8 @@ export default function Home() {
         >
           Vivek Pal
         </a>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
+    <div class={"theme-btn"}>
+        <i class={"fas fa-adjust"}></i>
     </div>
       </footer>
     </div >

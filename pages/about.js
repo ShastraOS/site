@@ -21,7 +21,7 @@ export default function About() {
                     <div className={styles.aboutScroll}>
                         <h2>Developers</h2>
                         Shastra OS is developed and designed by Vivek and Akshat in 2022.
-                        Shastra is currenlty under development. It is Completely free and open source,  code is available on Github.
+                        Shastra is currenlty under development. It is Completely free and open source, code is available on Github.
                         <h3>What makes it different</h3>
                         It is first operating system that is completely build for Web 3 users. It is built on top of vannila Arch Linux.
                         It is optimised for fast browsing and privacy and security.

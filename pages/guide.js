@@ -70,6 +70,17 @@ export default function Guide() {
                         </p>
                         </section>
 
+                        <section id='Backups'>
+                        <h2>Backups</h2>
+                        <p>
+                            You can backup your system using Backups Application. <br />
+                            And protect yourself from any data loss. <br />
+                            You can also restore any previous backup of ShastraOS or Arch Linux.
+                        </p>
+                        </section>
+
+                        
+                        <h2>Custominsing ShastraOS</h2>
                         <section id='Customization'>
                         <div className={styles.carousel}>
                             <div className={styles.card}>
@@ -83,8 +94,7 @@ export default function Guide() {
                             </div>
                         </div>
                         <hr />
-                        
-                        <h2>Custominsing Shastra appierance</h2>
+
                         <p>Shastra is highly customizable OS. You can easily change its theme and Dark Mode. 
                             To change dark mode, Go to settings, then appierance and select dark mode and wallpapers.
                             In tweaks application you will find these themes as default.

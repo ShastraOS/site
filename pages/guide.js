@@ -18,38 +18,59 @@ export default function Guide() {
                 <div className={styles.duoGrid}>
                     <section>
                         <h1 className={styles.title}>Shastra Guide</h1>
-                        <h3>Here is the installation guid for Shastra OS</h3>
+                        <h3>Here is the installation guide for Shastra OS</h3>
+                        <a href="#Install">Install</a>
+                        <a href='#AfterInstall'>After Installation</a>
+                        <a href='#Customization'>Customization</a>
                     </section>
                     <div className={styles.aboutScroll}>
+                        <section id='Install'>
                         <h2>Installation</h2>
                         <h3>Download ISO file</h3>
-                        <p>You can download ShastraOS from OSDN or Sourceforge mirrors.</p>
+                        <p>You can download ShastraOS from OSDN (recommended) or Sourceforge mirrors.</p>
                         <div className={styles.buttonGap}>
-                            <button className={styles.whiteBtn} onClick={() => { window.open('https://sourceforge.net/projects/shastra/files/latest/download', "_blank") }}><MdDownload className={styles.icon}/>Sourceforge</button>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.07-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>OSDN</button>
+                            <button className={styles.whiteBtn} onClick={() => { window.open('https://sourceforge.net/projects/shastra/files/latest/download', "_blank") }}><MdDownload className={styles.icon}/>Sourceforge</button>
                         </div>
+                        <h3>Verify your ShastraOS ISO file</h3>
                         <h3>Booting ISO using USB drive</h3>
-                        <p>Download ISO file.</p>
-                        <p>Insert USB drive into your PC</p>
-                        <p>Use Software Balena Etcher (For Linux Users) and Rufus (For Windows Users)</p>
+                        <p>Insert USB drive into your PC<br />
+                        Use Software Balena Etcher (For Linux Users) and Rufus (For Windows Users) <br />
+                        You can also use Ventoy (On any device)</p>
                         <p>After Booting ISO file, your system will be loaded.</p>
                         <h3>Installing into your PC</h3>
                         <p>Open Installer Application (you can just search it by pressing Windows/Command key.</p>
                         <p>Choose your option how you want to install and fill all details.</p>
                         <p>Go ahead and reboot after completing</p>
-                        <p></p>
                         <hr />
-                        <h2>Custominsing Shastra</h2>
-                        <p>Shastra is highly customizable OS. You can easily change its theme. In tweaks application you will find these flavours as default.
-                            
+                        </section>
+
+
+                        <section id='AfterInstall'>
+                        <h2>After Installation</h2>
+                        <h3>Update Your System</h3>
+                        <p>
+                            There are two ways to update your system and installing your favourite applications.
                             <br />
-                            <ul>
-                                <ol>Catppuccin Theme</ol>
-                                <ol>Orchis Theme</ol>
-                                <ol>Fluent Theme</ol>
-                            </ul>
-                            You can also mannually download other themes.
+                            Through terminal and through GUI (Add/Remove Software).
                         </p>
+                        <p>
+                        - Terminal: Open terminal and type <code>sudo pacman -Syyuu</code> to update pacman packages and <code>pamac update</code> to update AUR packages. <br />
+                        - GUI: Open Add/Remove Software and go to prefrences and enable AUR options in third party repository section. <br />
+                        - GUI: Open Add/Remove Software and go to update section and check your updates.
+                        </p>
+                        <h3>Enable Firewall Protection</h3>
+                        <p>
+                            First check if you have ufw or gufw installed. <br />
+                            <code>sudo pacman -S ufw</code> or <code>sudo pacman -S gufw</code>
+                        </p>
+                        <p>
+                            To enable firewall protection, open terminal and type <br />
+                            <code>sudo ufw enable</code> or <code>sudo gufw enable</code>
+                        </p>
+                        </section>
+
+                        <section id='Customization'>
                         <div className={styles.carousel}>
                             <div className={styles.card}>
                             <WindowMockup src="/gnomescreen01.png" />
@@ -62,17 +83,21 @@ export default function Guide() {
                             </div>
                         </div>
                         <hr />
-                        <h2>More Guide</h2>
-                        <h3>Lorem Ipsum</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        
+                        <h2>Custominsing Shastra appierance</h2>
+                        <p>Shastra is highly customizable OS. You can easily change its theme and Dark Mode. 
+                            To change dark mode, Go to settings, then appierance and select dark mode and wallpapers.
+                            In tweaks application you will find these themes as default.
+                            
                             <br />
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <ul>
+                                <ol>Catppuccin Theme</ol>
+                                <ol>Orchis Theme</ol>
+                                <ol>Fluent Theme</ol>
+                            </ul>
+                            You can also mannually download other themes from <a href="https://www.gnome-look.org/browse/">Gnome-Look</a>
                         </p>
-                        <h3>Loprem Ipsum Dolor</h3>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
+                        </section>
                     </div>
                 </div>
             </main>

@@ -46,7 +46,7 @@ export default function About() {
                         <p>Pre realese is available. It is very unstable virsion for now. But you can test it out and contribute in this open source project.</p>
                         <div className={styles.buttonGap}>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
-                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=osdn&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.10-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Download</button>
+                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.10-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Download</button>
                         </div>
 
                         <h3>Mentionsd</h3>

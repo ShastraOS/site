@@ -33,31 +33,30 @@ export default function About() {
                         </ul>
 
                         <h3>Why Shastra</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <ul>
+                            <li>Completely yours</li>
+                            <li>Costomize it in ur way</li>
+                            <li>We need a new OS for new generation</li>
+                            <li>Play your games with smooth experience</li>
+                            <li>Privacy and Security is your right</li>
+                        </ul>
 
                         <h4>When it is going to release officially.</h4>
-                        Shastra OS is currently under development. First release, The Shastra Dignity will be released in 2022.
+                        Shastra OS is currently under development.
+                        Beta release is out there.
+                        First release, The Shastra Dignity will be released in 2022.
 
-                        <h4>Why Free!</h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Shastra Dignity is a rolling release version of Shastra OS.
 
                         <hr />
-                        <h2>Pre Release</h2>
-                        <p>Pre realese is available. It is very unstable virsion for now. But you can test it out and contribute in this open source project.</p>
+                        <h2>Beta Release</h2>
+                        <p>Beta realese is available. It is unstable virsion for now. But you can test it out and contribute in this open source project.</p>
                         <div className={styles.buttonGap}>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
-                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.12-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Download</button>
+                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.14-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Download</button>
                         </div>
 
-                        <h3>Mentionsd</h3>
-                        <ul>
-                            <ol>Org： Lorem Ipsum</ol>
-                            <ol>Org： Lorem Ipsum</ol>
-                            <ul>
-                                <ol>Org：Lorem</ol>
-                                <ol>Org：Lorem</ol>
-                            </ul>
-                        </ul>
+                        <hr />
                         <p>Latest Realeses <a href="https://github.com/shastra-os/iso-build/releases">GitHub</a></p>
                         <p>Thanks for Visiting us</p>
                     </div>

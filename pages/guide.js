@@ -29,7 +29,7 @@ export default function Guide() {
                         <h3>Download ISO file</h3>
                         <p>You can download ShastraOS from OSDN (recommended) or Sourceforge mirrors.</p>
                         <div className={styles.buttonGap}>
-                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.12-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>OSDN</button>
+                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.14-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>OSDN</button>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://sourceforge.net/projects/shastra/files/latest/download', "_blank") }}><MdDownload className={styles.icon}/>Sourceforge</button>
                         </div>
                         <h3>Verify your ShastraOS ISO file</h3>

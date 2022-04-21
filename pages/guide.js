@@ -80,7 +80,7 @@ export default function Guide() {
                         </section>
 
                         
-                        <h2>Custominsing ShastraOS</h2>
+                        <h2>Customizing ShastraOS</h2>
                         <section id='Customization'>
                         <div className={styles.carousel}>
                             <div className={styles.card}>

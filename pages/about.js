@@ -21,36 +21,36 @@ export default function About() {
                     <div className={styles.aboutScroll}>
                         <h2>Developers</h2>
                         Shastra OS is developed and designed by Vivek and Akshat in 2022.
-                        Shastra is currenlty under development. It is Completely free and open source, code is available on Github.
-                        <h3>What makes it different</h3>
-                        It is first operating system that is completely build for Web 3 users. It is built on top of vannila Arch Linux.
-                        It is optimised for fast browsing and privacy and security.
+	                    Shastra is currently under development. It is completely free and open-source, code is available on Github.
+                        <h3>What makes it different?</h3>
+                        It is the operating system that is completely built for Web 3 users. It is built on top of vanilla Arch Linux.
+                        It is optimized for fast browsing and privacy and security.
 
                         <ul>
-                            <ol>Comes with Brave Browser</ol>
-                            <ol>Latest Gnome Desktop with multiple falvours.</ol>
-                            <ol>Your Wallet Manager (Currenly in Development)</ol>
+                            <ol>Comes with pre-installed Brave Browser</ol>
+                            <ol>Latest Gnome Desktop with multiple falvours</ol>
+                            <ol>Your Wallet Manager for Ethereum and Bitcoin</ol>
                         </ul>
 
                         <h3>Why Shastra</h3>
                         <ul>
                             <li>Completely yours</li>
-                            <li>Costomize it in ur way</li>
-                            <li>We need a new OS for new generation</li>
-                            <li>Play your games with smooth experience</li>
-                            <li>Privacy and Security is your right</li>
+                            <li>Customize it in your way</li>
+                            <li>We need a new OS for a new generation</li>
+                            <li>Play your games with a smooth experience</li>
+                            <li>Privacy and Security are your right</li>
                         </ul>
 
-                        <h4>When it is going to release officially.</h4>
+                        <h4>When is it going to release officially?</h4>
                         Shastra OS is currently under development.
-                        Beta release is out there.
-                        First release, The Shastra Dignity will be released in 2022.
+                        The beta release is out there.
+                        The first release of Shastra-Dignity would be released in 2022.
 
                         Shastra Dignity is a rolling release version of Shastra OS.
 
                         <hr />
                         <h2>Beta Release</h2>
-                        <p>Beta realese is available. It is unstable virsion for now. But you can test it out and contribute in this open source project.</p>
+                        <p>The beta release is available. It is an unstable version for now. But you can test it out and contribute to this open-source project.</p>
                         <div className={styles.buttonGap}>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.14-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Download</button>

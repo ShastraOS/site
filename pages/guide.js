@@ -35,13 +35,13 @@ export default function Guide() {
                         <h3>Verify your ShastraOS ISO file</h3>
                         <h3>Booting ISO using USB drive</h3>
                         <p>Insert USB drive into your PC<br />
-                        Use Software Balena Etcher (For Linux Users) and Rufus (For Windows Users) <br />
+                        Use Software Balena Etcher (For Linux Users) and Rufus (For Windows Users).<br />
                         You can also use Ventoy (On any device)</p>
                         <p>After Booting ISO file, your system will be loaded.</p>
                         <h3>Installing into your PC</h3>
-                        <p>Open Installer Application (you can just search it by pressing Windows/Command key.</p>
-                        <p>Choose your option how you want to install and fill all details.</p>
-                        <p>Go ahead and reboot after completing</p>
+                        <p>Open Installer Application (you can search it by pressing Windows/Command key.</p>
+                        <p>Select your option on how you want to install it and fill in all details.</p>
+                        <p>Go ahead and reboot after completing.</p>
                         <hr />
                         </section>
 
@@ -50,30 +50,31 @@ export default function Guide() {
                         <h2>After Installation</h2>
                         <h3>Update Your System</h3>
                         <p>
-                            There are two ways to update your system and installing your favourite applications.
+                        There are two ways to update your system and install your favorite applications.
                             <br />
-                            Through terminal and through GUI (Add/Remove Software).
+                            Through terminal and GUI (Add/Remove Software).
                         </p>
                         <p>
                         - Terminal: Open terminal and type <code>sudo pacman -Syyuu</code> to update pacman packages and <code>pamac update</code> to update AUR packages. <br />
-                        - GUI: Open Add/Remove Software and go to prefrences and enable AUR options in third party repository section. <br />
-                        - GUI: Open Add/Remove Software and go to update section and check your updates.
+                        - GUI: Open Add/Remove Software, go to preferences, and enable AUR options in the third-party repository section. <br />
+                        - GUI: Open Add/Remove Software, go to the update section, and check your updates.
                         </p>
                         <h3>Enable Firewall Protection</h3>
                         <p>
-                            First check if you have ufw or gufw installed. <br />
+                        First, check if you have 'ufw' or 'gufw' installed. <br />
                             <code>sudo pacman -S ufw</code> or <code>sudo pacman -S gufw</code>
                         </p>
                         <p>
                             To enable firewall protection, open terminal and type <br />
                             <code>sudo ufw enable</code> or <code>sudo gufw enable</code>
                         </p>
+                        <p>Or just search firewall, and turn it on. If you are unable to find install 'gufw'.</p>
                         </section>
 
                         <section id='Backups'>
                         <h2>Backups</h2>
                         <p>
-                            You can backup your system using Backups Application. <br />
+                        You can backup your system using the Backups Application.  <br />
                             And protect yourself from any data loss. <br />
                             You can also restore any previous backup of ShastraOS or Arch Linux.
                         </p>
@@ -95,9 +96,9 @@ export default function Guide() {
                         </div>
                         <hr />
 
-                        <p>Shastra is highly customizable OS. You can easily change its theme and Dark Mode. 
-                            To change dark mode, Go to settings, then appierance and select dark mode and wallpapers.
-                            In tweaks application you will find these themes as default.
+                        <p>Shastra is a highly customizable OS. You can easily change its theme and Dark Mode. 
+                            If you want to change the dark mode, Go to settings, then appearance, and select dark mode and wallpapers.
+                            In the tweaks application, you will find these themes as default.
                             
                             <br />
                             <ul>
@@ -105,7 +106,7 @@ export default function Guide() {
                                 <ol>Orchis Theme</ol>
                                 <ol>Fluent Theme</ol>
                             </ul>
-                            You can also mannually download other themes from <a href="https://www.gnome-look.org/browse/">Gnome-Look</a>
+                            You can also manually download other themes from <a href="https://www.gnome-look.org/browse/">Gnome-Look</a>
                         </p>
                         </section>
                     </div>

@@ -68,9 +68,9 @@ export default function Home() {
             <h1 className={styles.title}>Shastra Dignity Beta</h1>
             <h2>Beta version of Shastra Dignity is out there! Dignity is the very first version of ShastraOS</h2>
             <p className={styles.description}>
-              Anyone can help us in contributing in Shastra Project. Beta version is released to git you an essence of upcoming ShastraOS versions. You can run it on your PC and test it out.
-              You may face some installation issues but hold on till official first release of Shastra OS.
-              Which is Shastra Dignity coming with latest gnome 42.
+            Anyone can help us by contributing to the Shastra Project. The Beta version is released to get you the essence of upcoming ShastraOS versions. You can run it on your PC and test it out.
+             You may face some installation issues, but hold on till the official first release of Shastra OS.
+             Which is Shastra Dignity coming with the latest gnome 42.
             </p>
           </section>
         </div>

@@ -1,13 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
 import { WindowMockup } from 'react-mockup'
 import 'react-mockup/dist/index.css'
 import 'html5-device-mockups/dist/device-mockups.min.css';
-import { Macbook, Chromebook } from 'react-device-mockups';
+import { Macbook} from 'react-device-mockups';
 import Header from './Header'
-import { MdOutlineOpenInBrowser,MdCode, MdOutlineDownload } from "react-icons/md";
+import { MdCode, MdOutlineDownload } from "react-icons/md";
 
 export default function Home() {
   const [versionData, setVersionData] = useState();

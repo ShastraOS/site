@@ -40,14 +40,23 @@ export default function Home() {
               type="mac"
               color="black"
             /> */}
-            <Macbook width={900} orientation='landscape' color='black' buttonProps={ {
-                onClick: () => alert('Home Button Clicked!')
-            } }>
-                <iframe title='showcase' src='/screen02.png' style={ {
-                    width: '100%',
-                    height: '100%',
-                    margin: 0
-                } }/>
+            <Macbook
+              width="100%"
+              orientation="landscape"
+              color="black"
+              buttonProps={{
+                onClick: () => alert('Home Button Clicked!'),
+              }}
+            >
+              <iframe
+                title="showcase"
+                src="/screen02.png"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  margin: 0,
+                }}
+              />
             </Macbook>
           </section>
         </div>

@@ -6,6 +6,7 @@ import 'react-mockup/dist/index.css'
 import 'html5-device-mockups/dist/device-mockups.min.css';
 import { Macbook} from 'react-device-mockups';
 import Header from './Header'
+import Footer from './Footer'
 import { MdCode, MdOutlineDownload } from "react-icons/md";
 
 export default function Home() {
@@ -102,27 +103,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a href="guide">GUIDE</a>
-        <a href="about">ABOUT</a>
-        <a
-          href="https://bit.ly/3tPOaOz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Akshat Sharma
-        </a>
-        <a
-          href="https://vivekpal.in"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vivek Pal
-        </a>
-    <div class={"theme-btn"}>
-        <i class={"fas fa-adjust"}></i>
-    </div>
-      </footer>
+      
+      <Footer/>
     </div >
   )
 }

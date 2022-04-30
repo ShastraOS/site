@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from './Header'
+import Footer from './Footer'
 import { MdCode,MdDownload,MdPerson } from "react-icons/md";
 
 export default function About() {
@@ -65,3 +66,5 @@ export default function About() {
         </div>
     )
 }
+
+<Footer />

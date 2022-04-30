@@ -4,6 +4,7 @@ import { WindowMockup } from 'react-mockup'
 import 'react-mockup/dist/index.css'
 import { MdCode,MdDownload,MdPerson } from "react-icons/md";
 import Header from './Header'
+import Footer from './Footer'
 
 export default function Guide() {
     return (
@@ -115,3 +116,5 @@ export default function Guide() {
         </div>
     )
 }
+
+<Footer/>

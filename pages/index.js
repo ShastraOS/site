@@ -30,7 +30,7 @@ export default function Home() {
               {/* <span>v{versionData}</span> */}
             </div>
             <div className={styles.buttonGap}>
-              <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.24-x86_64.iso', "_blank") }}><MdOutlineDownload className={styles.icon}/>Install</button>
+              <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.04.27-x86_64.iso', "_blank") }}><MdOutlineDownload className={styles.icon}/>Install</button>
               <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
             </div>
           </section>
@@ -104,7 +104,7 @@ export default function Home() {
           Akshat Sharma
         </a>
         <a
-          href="https://vivekpal.vercel.app"
+          href="https://vivekpal.in"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -12,7 +12,7 @@ export default function Header() {
             </a>
             <div className="alignItems">
             <button className={styles.blueBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
-                <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/projects/shastraos/downloads/77132/ShastraDignity-Beta-2022.05.07-x86_64.iso/', "_blank") }}><MdOutlineDownload className={styles.icon}/>Install</button>
+                <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.05.07-x86_64.iso', "_blank") }}><MdOutlineDownload className={styles.icon}/>Install</button>
             </div>
         </header>
     )

@@ -97,6 +97,9 @@ export default function Home() {
               <WindowMockup src="/gnomescreen01.png" />
             </div>
             <div className={styles.card}>
+              <WindowMockup src="/lite.jpeg" />
+            </div>
+            <div className={styles.card}>
               <WindowMockup src="/cinnamon.webp" />
             </div>
           </div>

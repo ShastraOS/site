@@ -62,14 +62,14 @@ export default function Guide() {
                         </p>
                         <h3>Enable Firewall Protection</h3>
                         <p>
-                        First, check if you have 'ufw' or 'gufw' installed. <br />
+                        First, check if you have ufw or gufw installed. <br />
                             <code>sudo pacman -S ufw</code> or <code>sudo pacman -S gufw</code>
                         </p>
                         <p>
                             To enable firewall protection, open terminal and type <br />
                             <code>sudo ufw enable</code> or <code>sudo gufw enable</code>
                         </p>
-                        <p>Or just search firewall, and turn it on. If you are unable to find install 'gufw'.</p>
+                        <p>Or just search firewall, and turn it on. If you are unable to find install gufw.</p>
                         </section>
 
                         <section id='Backups'>

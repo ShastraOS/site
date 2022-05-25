@@ -31,7 +31,7 @@ export default function Home() {
               {/* <span>v{versionData}</span> */}
             </div>
             <div className={styles.buttonGap}>
-              <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=nchc&f=shastraos%2F77132%2FShastraDignity-Beta-2022.05.15-x86_64.iso', "_blank") }}><MdOutlineDownload className={styles.icon}/>Install</button>
+              <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/projects/shastraos/downloads/77132/ShastraDignity-Beta-2022.05.24-x86_64.iso/', "_blank") }}><MdOutlineDownload className={styles.icon}/>Install</button>
               <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
             </div>
           </section>

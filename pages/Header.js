@@ -8,7 +8,7 @@ import { MdOutlineDownload, MdCode, MdOutlineOpenInBrowser } from "react-icons/m
 export default function Header() {
     return (
         <header>
-            <Link href="/">
+            <Link href="https://shastraos.vercel.app/">
             <img src="shastralogo.png" />
            </Link>
             <div className="alignItems">

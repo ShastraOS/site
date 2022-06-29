@@ -167,6 +167,7 @@ footer a {
 .mockupContainer {
 	animation: mockupContainerAni infinite 6s;
 	animation-direction: alternate;
+
 }
 
 @keyframes mockupContainerAni {

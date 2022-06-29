@@ -75,7 +75,7 @@ export default function Home() {
           </section>
           <section className={styles.padding2em}>
             <h1 className={styles.title}>Shastra Dignity Beta</h1>
-            <h2>Beta version of Shastra Dignity is out there! Dignity is the very first version of ShastraOS</h2>
+            <h2>Beta version of Shastra Dignity is out there! This is for development and testing, first version coming soon.</h2>
             <p className={styles.description}>
             Anyone can help us by contributing to the Shastra Project. The Beta version is released to get you the essence of upcoming ShastraOS versions. You can run it on your PC and test it out.
              You may face some installation issues, but hold on till the official first release of Shastra OS.

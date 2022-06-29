@@ -8,7 +8,7 @@ import { MdOutlineDownload, MdCode, MdOutlineOpenInBrowser, MdChat } from "react
 export default function Header() {
     return (
         <header>
-            <Link href="https://shastraos.vercel.app/">
+            <Link href="/">
                 <img src="shastralogo.png" />
             </Link>
             <div className="alignItems">

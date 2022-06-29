@@ -11,8 +11,8 @@ hr {
 	border: 1px solid rgb(213, 217, 218);
 }
 ::-webkit-scrollbar {
-	width: 15px;
-	height: 15px;
+	width: 10px;
+	height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -90,8 +90,8 @@ button {
 	transition: 0.4s;
 	/* background-color: #e2e2e2; */
 	/* color: black; */
-	color: white;
-	background-color: black;
+	color: rgb(218, 251, 255);
+	background-color: rgb(23, 29, 29);
 }
 button:hover {
 	transform: scale3d(1.05, 1.05, 1.05);
@@ -165,8 +165,8 @@ footer a {
 }
 
 .mockupContainer {
-	animation: mockupContainerAni infinite 6s;
-	animation-direction: alternate;
+	animation: mockupContainerAni infinite 4s;
+	animation-direction: alternate-reverse44444444;
 
 }
 

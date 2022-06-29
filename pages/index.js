@@ -31,8 +31,8 @@ export default function Home() {
               {/* <span>v{versionData}</span> */}
             </div>
             <div className={styles.buttonGap}>
-              <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=rwthaachen&f=shastraos%2F77132%2FShastraDignity-Beta-2022.05.07-x86_64.iso', "_blank") }}><MdOutlineDownload className={styles.icon}/>Install</button>
-              <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
+              <button className={styles.blueBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=rwthaachen&f=shastraos%2F77132%2FShastraDignity-Beta-2022.05.07-x86_64.iso', "_blank") }}><MdOutlineDownload className={styles.icon}/>Beta</button>
+              <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>CODE</button>
             </div>
           </section>
           <section className="mockupContainer">
@@ -75,7 +75,7 @@ export default function Home() {
           </section>
           <section className={styles.padding2em}>
             <h1 className={styles.title}>Shastra Dignity Beta</h1>
-            <h2>Beta version of Shastra Dignity is out there! Dignity is the very first version of ShastraOS</h2>
+            <h2>Beta version of Shastra Dignity is out there! This is for development and testing, first version coming soon.</h2>
             <p className={styles.description}>
             Anyone can help us by contributing to the Shastra Project. The Beta version is released to get you the essence of upcoming ShastraOS versions. You can run it on your PC and test it out.
              You may face some installation issues, but hold on till the official first release of Shastra OS.

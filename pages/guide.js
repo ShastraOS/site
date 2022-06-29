@@ -113,8 +113,7 @@ export default function Guide() {
                     </div>
                 </div>
             </main>
+            <Footer/>
         </div>
     )
 }
-
-<Footer/>

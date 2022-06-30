@@ -81,7 +81,7 @@ button {
 	align-items: center;
 	user-select: none;
 	gap: 4px;
-	border-radius: 5px;
+	border-radius: 8px;
 	padding: 8px 20px;
 	font-weight: bold;
 	outline: none;
@@ -166,7 +166,7 @@ footer a {
 
 .mockupContainer {
 	animation: mockupContainerAni infinite 4s;
-	animation-direction: alternate-reverse44444444;
+	animation-direction: alternate;
 
 }
 

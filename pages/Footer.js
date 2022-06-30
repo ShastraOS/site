@@ -12,7 +12,7 @@ export default function Footer() {
     <footer>
       <div className="alignItems">
         <Link href="/">Home</Link>
-        <Link href="guide">Guide</Link>
+        <Link href="install">Guide</Link>
         <Link href="about">About</Link>
         <a
           href="https://bit.ly/3tPOaOz"

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"
 import styles from "../styles/Home.module.css";
 import {
   MdOutlineDownload,
@@ -10,8 +11,9 @@ export default function Footer() {
   return (
     <footer>
       <div className="alignItems">
-      <a href="guide">GUIDE</a>
-        <a href="about">ABOUT</a>
+        <Link href="/">Home</Link>
+        <Link href="install">Guide</Link>
+        <Link href="about">About</Link>
         <a
           href="https://bit.ly/3tPOaOz"
           target="_blank"

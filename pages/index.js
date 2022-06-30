@@ -64,12 +64,11 @@ export default function Home() {
         <div className={styles.duoGrid}>
           <section>
             <ul>
-              <li>An OS for The Next Gen of the Web</li>
-              <li>Privacy Redefined- Comes with Brave Default Browser</li>
-              <li>Easy to Use</li>
+              <li>Currently under developemnt</li>
+              <li>Easy to install applications from ShastraRepo</li>
+              <li>Easy to Use with Gnome 42</li>
               <li>Enhanced privacy and protection</li>
-              <li>Latest Gnome 42 Desktop Environment</li>
-              <li>Easy to install applications through Pamac</li>
+              <li>Privacy Redefined- Comes with Brave Default Browser</li>
             </ul>
           </section>
           <section className={styles.padding2em}>

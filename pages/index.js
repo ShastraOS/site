@@ -25,7 +25,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.duoGrid}>
           <section className={styles.padding2em}>
-            <h2>An OS for the Web3</h2>
+            <h2>Your Decentralized OS</h2>
             <div className={styles.headStyle}>
               <h1>ShastraOS- Dignity</h1>
               {/* <span>v{versionData}</span> */}
@@ -65,9 +65,9 @@ export default function Home() {
           <section>
             <ul>
               <li>Currently under developemnt</li>
-              <li>Easy to install applications from ShastraRepo</li>
-              <li>Easy to Use with Gnome 42</li>
-              <li>Enhanced privacy and protection</li>
+              <li>Easy to install applications</li>
+              <li>Seamless experience with Gnome 42</li>
+              <li>We care your privacy and protection</li>
               <li>Privacy Redefined- Comes with Brave Default Browser</li>
             </ul>
           </section>
@@ -85,7 +85,7 @@ export default function Home() {
 
         <div className={styles.duoGrid}>
           <section className={styles.padding2em}>
-            <h1 className={styles.title}>Upcoming flavours of Shastra</h1>
+            <h1 className={styles.title}>Upcoming tastes of your Shastra</h1>
             <h2>Gnome &rarr;</h2>
             <h2>Gnome Lite &rarr;</h2>
             <h2>Cinnamon (Not Developed) &rarr;</h2>

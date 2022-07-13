@@ -34,7 +34,7 @@ export default function Guide() {
                         <h2>Download ISO file</h2>
                         <p>You can download ShastraOS from OSDN (recommended) or Sourceforge mirrors.</p>
                         <div>
-                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=rwthaachen&f=shastraos%2F77132%2FShastraDignity-Beta-2022.05.07-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Download</button>
+                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastra-Beta-2022.07.12-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Download</button>
                             <br />
                             <p>
                                 You can also download Latest ISO file from ShastraOS <a href='https://sourceforge.net/projects/shastra/files/latest/download'>Sourceforge mirror</a>. Sourceforge has the very latest ShastraOS Beta image file. It can have some installation issues on some devices.

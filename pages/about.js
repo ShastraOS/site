@@ -21,16 +21,17 @@ export default function About() {
                     </section>
                     <div className={styles.aboutScroll}>
                         <h2>Developers</h2>
-                        Shastra OS is developed and designed by Vivek and Akshat in 2022.
-	                    Shastra is currently under development. It is completely free and open-source, code is available on Github.
+                        Shastra is currently under development. We are building it on top of Arch Linux.
+                        Shastra OS is developed and designed by Vivek Pal in 2022.
+	                    It is going to be completely free and open-source, code is available on Github.
                         <h3>What makes it different?</h3>
                         It is the operating system that is completely built for Web 3 users. It is built on top of vanilla Arch Linux.
                         It is optimized for fast browsing and privacy and security.
 
                         <ul>
-                            <ol>Comes with pre-installed Brave Browser</ol>
+                            <ol>Ships with pre-installed Brave Browser</ol>
                             <ol>Latest Gnome Desktop with multiple falvours</ol>
-                            <ol>Your Wallet Manager for Ethereum and Bitcoin</ol>
+                            <ol>Your Wallet for Ethereum and Bitcoin</ol>
                         </ul>
 
                         <h3>Why Shastra</h3>
@@ -44,17 +45,22 @@ export default function About() {
 
                         <h4>When is it going to release officially?</h4>
                         Shastra OS is currently under development.
-                        The beta release is out there.
+                        The beta release is out there. We are working hard for you to ship the first version very soon.
                         The first release of Shastra-Dignity would be released in 2022.
 
+                        <h3>
+                            Shastra Dignity
+                        </h3>
                         Shastra Dignity is a rolling release version of Shastra OS.
+                        Which means we will ship updates as soon we have them.
+                        Supports latest Nvidia GPUs with Latest Nvidia open drivers.
 
                         <hr />
                         <h2>Beta Release</h2>
                         <p>The beta release is available. It is an unstable version for now. But you can test it out and contribute to this open-source project.</p>
                         <div className={styles.buttonGap}>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
-                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastra-Beta-2022.07.17-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Download</button>
+                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastra-Beta-2022.07.17-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Get Shastra</button>
                         </div>
 
                         <hr />

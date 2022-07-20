@@ -88,7 +88,7 @@ export default function Home() {
             <h1 className={styles.title}>Upcoming tastes of your Shastra</h1>
             <h2>Gnome &rarr;</h2>
             <h2>Gnome Lite &rarr;</h2>
-            <h2>Cinnamon (Not Developed) &rarr;</h2>
+            <h2>Cutefish (Not Developed) &rarr;</h2>
           </section>
           <div className={styles.carousel}>
             <div className={styles.card}>

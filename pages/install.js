@@ -44,7 +44,7 @@ export default function Guide() {
                   className={styles.whiteBtn}
                   onClick={() => {
                     window.open(
-                      "https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastra-Beta-2022.07.17-x86_64.iso",
+                      "https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastra-Beta-2022.07.22-x86_64.iso",
                       "_blank"
                     );
                   }}

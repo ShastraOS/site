@@ -4,7 +4,7 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "ShastraOS",
+    "name": "ShastraOS WebApp",
     "short_name": "ShastraOS",
     "description": "ShastraOS Web Application",
     "icons": [

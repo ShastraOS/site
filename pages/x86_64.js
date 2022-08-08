@@ -24,7 +24,13 @@ export default function About() {
                             <li><a href="https://ipfs.io/ipfs/QmaYhPuU25Frhy2dVKa8n84qpuMrqmZhYKu8kpcQNWGfvH?filename=about-shastraos-0.1-2-any.pkg.tar.zst">about-shastraos-0.1-2-any.pkg.tar.zst</a></li>
                             <li><a href="https://ipfs.io/ipfs/Qma6RCeCAAhCaDjTrKt9tKkjzxE1yjtcXoC9wqagm59W55?filename=shastrarepo.db">shastrarepo.db</a></li>
                             <li><a href="https://ipfs.io/ipfs/QmUTG3EGRLUry214sq8RX5XKUV2mirDExzE7yPY2rUMFg5?filename=shastrarepo.files">shastrarepo.files</a></li>
-                            <li><a href="">Repo</a></li>
+                            <li><a href="https://ipfs.io/ipfs/QmeR6Ad7fhycU2rdPtPJEm4kCzBXL5isR9Mn6StYdCU1B5?filename=shastraos-artwork-0.1-1-any.pkg.tar.zst">shastraos-artwork-0.1-1-any.pkg.tar.zst</a></li>
+                            <li><a href="https://ipfs.io/ipfs/QmY1jxto4jagum8cMDBR9KrtFnWovY6fFYiv5FMkuY1P3e?filename=shastraos-backgrounds-0.1-1-any.pkg.tar.zst">shastraos-backgrounds-0.1-1-any.pkg.tar.zst</a></li>
+                            <li><a href='https://ipfs.io/ipfs/QmWoyfLvcxozhfKXLkLoxCZ5JPJ4XifA3dtjf98JyB4hb1?filename=shastraos-hooks-0.1-1-any.pkg.tar.zst'></a></li>
+                            <li><a href='https://ipfs.io/ipfs/QmRdaabW7hqYME9znvjiSC2s348HvfsHqkZ1sb5PnhShuk?filename=shastraos-icons-0.1-1-any.pkg.tar.zst'></a></li>
+                            <li><a href='https://ipfs.io/ipfs/QmP4SbxTT17piwhWpzeRMFHtKecqaCc6jr8F758DMKv8FS?filename=shastrarepo-0.1-1-any.pkg.tar.zst'></a></li>
+                            <li><a href=''></a></li>
+                            <li><a href=''></a></li>
                         </ul>
                     </div>
                 </div>

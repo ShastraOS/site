@@ -30,7 +30,6 @@ export default function About() {
                             <li><a href='https://ipfs.io/ipfs/QmRdaabW7hqYME9znvjiSC2s348HvfsHqkZ1sb5PnhShuk?filename=shastraos-icons-0.1-1-any.pkg.tar.zst'></a></li>
                             <li><a href='https://ipfs.io/ipfs/QmP4SbxTT17piwhWpzeRMFHtKecqaCc6jr8F758DMKv8FS?filename=shastrarepo-0.1-1-any.pkg.tar.zst'></a></li>
                             <li><a href=''></a></li>
-                            <li><a href=''></a></li>
                         </ul>
                     </div>
                 </div>

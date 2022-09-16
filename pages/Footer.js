@@ -14,20 +14,7 @@ export default function Footer() {
         <Link href="/">Home</Link>
         <Link href="install">Guide</Link>
         <Link href="about">About</Link>
-        <a
-          href="https://bit.ly/3tPOaOz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Akshat Sharma
-        </a>
-        <a
-          href="https://vivekpal.in"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vivek Pal
-        </a>
+        <Link href="devs">Developers</Link>
       </div>
     </footer>
   );

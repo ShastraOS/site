@@ -17,7 +17,11 @@ export default function About() {
                 <link rel='apple-touch-icon' href='/icon-192x192.png' />
             </Head>
             <Header />
-                    
+            <div className={styles.buttonGap}>
+                
+                    <button className={styles.blueBtn} onClick={() => { window.open('https://vivekpal.in') }}><MdPerson className={styles.icon}/>Vivek Pal</button>
+            </div>
+            <br/>
             <Footer />
         </div>
     )

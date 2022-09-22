@@ -37,21 +37,15 @@ export default function Guide() {
               Hacktoberfest 2022 and get crazy swaggs and perks.
             </p>
             <div className={styles.buttonGap}>
-              <PopupButton
-                id="JOY3FzvW"
-                size={80}
-                hidden={{
-                  foo: "Foo Value",
-                  bar: "Bar Value",
+              <button
+                className={styles.whiteBtn}
+                onClick={() => {
+                  window.open("https://uimhaxwrrxg.typeform.com/to/JOY3FzvW", "_blank");
                 }}
-                onReady={() => {
-                  console.log("form ready");
-                }}
-                enableSandbox
               >
-                <MdLogin className={styles.icon} />
-                Sign Up for Hacktoberfest
-              </PopupButton>
+                <MdCode className={styles.icon} />
+                Sign Up for ShastraOS Hacktoberfest
+              </button>
               <button
                 className={styles.whiteBtn}
                 onClick={() => {

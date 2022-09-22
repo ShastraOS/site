@@ -50,7 +50,7 @@ export default function Guide() {
                 enableSandbox
               >
                 <MdLogin className={styles.icon} />
-                Sign Up
+                Sign Up for Hacktoberfest
               </PopupButton>
               <button
                 className={styles.whiteBtn}

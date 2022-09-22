@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className={styles.buttonGap}>
               <button className={styles.blueBtn} onClick={() => { window.open('install') }}><MdOutlineDownload className={styles.icon}/>Beta</button>
-              <button className={styles.whiteBtn} onClick={() => { window.open('hacktoberform', "_blank") }}><MdCode className={styles.icon}/>CODE</button>
+              <button className={styles.whiteBtn} onClick={() => { window.open('opensource', "_blank") }}><MdCode className={styles.icon}/>CODE</button>
             </div>
           </section>
           <section className="mockupContainer">

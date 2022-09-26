@@ -40,7 +40,7 @@ export default function Guide() {
               <button
                 className={styles.whiteBtn}
                 onClick={() => {
-                  window.open("https://uimhaxwrrxg.typeform.com/to/JOY3FzvW", "_blank");
+                  window.open("https://uimhaxwrrxg.typeform.com/to/B1iUIP71", "_blank");
                 }}
               >
                 <MdCode className={styles.icon} />

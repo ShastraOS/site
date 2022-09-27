@@ -40,7 +40,7 @@ export default function Guide() {
               <button
                 className={styles.whiteBtn}
                 onClick={() => {
-                  window.open("https://shastraos.budibase.app/app/hacktoberfest2022", "_blank");
+                  window.open("https://forms.office.com/r/DVReTBS2Wu", "_blank");
                 }}
               >
                 <MdCode className={styles.icon} />

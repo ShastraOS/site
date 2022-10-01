@@ -88,7 +88,14 @@
 	height: 1em;
 	margin-left: 0.5rem;
 }
-
+.yash{
+    position: absolute;
+    right: 0;
+    margin-top: 100vh;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
 @media (min-width: 500px) {
 	.main {
 		padding: 0rem 1rem;

@@ -11,7 +11,7 @@
   "dependencies": {
     "@typeform/embed-react": "^1.21.0",
     "html5-device-mockups": "^3.2.1",
-    "next": "12.1.0",
+    "next": "^12.1.0",
     "next-pwa": "^5.5.4",
     "react": "17.0.2",
     "react-device-mockups": "^0.1.11",

@@ -3,7 +3,14 @@ import styles from '../styles/Home.module.css'
 import Header from './Header'
 import Footer from './Footer'
 import { MdCode,MdDownload,MdPerson } from "react-icons/md";
-
+const yash={
+    position:"absolute",
+    right: "0",
+    marginTop: "100vh",
+    left: "0",
+    padding: "1rem",
+    textAlign: "center",
+}
 export default function About() {
     return (
         <div className={'container'}>

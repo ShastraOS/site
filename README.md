@@ -1,8 +1,31 @@
+# ShastraOS
+
+**`Your Decentralized OS`**
+
 ## Getting Started
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Shastra-OS/site)
 
-First, run the development server:
+This project use **`NextJS`**
+
+## Clone the repo
+
+First, clone this repo:
+
+```bash
+git clone https://github.com/Shastra-OS/site.git
+cd site/
+```
+Then, install all the packages:
+
+```bash
+npm install
+```
+or, if you use yarn
+```bash
+yarn install
+```
+When everything is installed, you should run the development server:
 
 ```bash
 npm run dev

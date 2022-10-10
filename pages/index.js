@@ -5,8 +5,8 @@ import { WindowMockup } from 'react-mockup'
 import 'react-mockup/dist/index.css'
 import 'html5-device-mockups/dist/device-mockups.min.css';
 import { Macbook} from 'react-device-mockups';
-import Header from './Header'
-import Footer from './Footer'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import { MdCode, MdOutlineDownload } from "react-icons/md";
 
 export default function Home() {

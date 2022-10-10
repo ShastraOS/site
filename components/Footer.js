@@ -1,11 +1,7 @@
 import React from "react";
 import Link from "next/link"
 import styles from "../styles/Home.module.css";
-import {
-  MdOutlineDownload,
-  MdCode,
-  MdOutlineOpenInBrowser,
-} from "react-icons/md";
+
 const yash={
   position:"fixed",
     right: "0",

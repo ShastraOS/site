@@ -36,7 +36,3 @@ yarn-error.log*
 # pwa
 /public/sw.js
 /public/sw.js.map
-/public/workbox-74d02f44.js
-/public/workbox-74d02f44.js.map
-/public/workbox-eac1af49.js
-/public/workbox-eac1af49.js.map

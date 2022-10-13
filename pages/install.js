@@ -17,7 +17,7 @@ export default function Guide() {
         <meta name="theme-color" content="#317EFB"/>
         <link rel="icon" href="/favicon.ico" />
 				<link rel='manifest' href='/manifest.json' />
-        <link rel='apple-touch-icon' href='/icon-192x192.png' />
+        <link rel='apple-touch-icon' href='/icons/icon-192x192.png' />
       </Head>
       <Header />
       <main className={styles.main}>
@@ -244,13 +244,13 @@ export default function Guide() {
             <section id="Customization">
               <div className={styles.carousel}>
                 <div className={styles.card}>
-                  <WindowMockup src="/gnomescreen01.png" />
+                  <WindowMockup src="/screenshots/gnomescreen01.png" />
                 </div>
                 <div className={styles.card}>
-                  <WindowMockup src="/screen01.png" />
+                  <WindowMockup src="/screenshots/screen01.png" />
                 </div>
                 <div className={styles.card}>
-                  <WindowMockup src="/screen03.png" />
+                  <WindowMockup src="/screenshots/screen03.png" />
                 </div>
               </div>
               <hr />

@@ -12,7 +12,7 @@ export default function Header() {
     return (
         <header>
             <Link href="/">
-                <img src="shastralogo.png" />
+                <img src="icons/shastralogo.png" />
             </Link>
             <div className="alignItems">
                 <button className={styles.blueBtn} onClick={() => { window.open('https://www.reddit.com/r/shastraos', "_blank") }}><FaReddit className={styles.icon}/>REDDIT</button>        

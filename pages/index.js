@@ -4,10 +4,13 @@ import styles from "../styles/Home.module.css";
 import { WindowMockup } from "react-mockup";
 import "react-mockup/dist/index.css";
 import "html5-device-mockups/dist/device-mockups.min.css";
-import { Macbook } from "react-device-mockups";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { MdCode, MdOutlineDownload } from "react-icons/md";
+import Macbook1 from "../components/mockups/Macbook1";
+import Window1 from "../components/mockups/window1";
+import Window2 from "../components/mockups/window2";
+import Window3 from "../components/mockups/window3";
 
 export default function Home() {
   const [versionData, setVersionData] = useState();
@@ -59,29 +62,7 @@ export default function Home() {
             </div>
           </section>
           <section className="mockupContainer">
-            {/* <WindowMockup
-              src="/screen02.png"
-              type="mac"
-              color="black"
-            /> */}
-            <Macbook
-              width="100%"
-              orientation="landscape"
-              color="black"
-              buttonProps={{
-                onClick: () => alert("Home Button Clicked!"),
-              }}
-            >
-              <iframe
-                title="showcase"
-                src="/screen02.png"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  margin: "fixed",
-                }}
-              />
-            </Macbook>
+            <Macbook1/>
           </section>
         </div>
 
@@ -122,13 +103,13 @@ export default function Home() {
           </section>
           <div className={styles.carousel}>
             <div className={styles.card}>
-              <WindowMockup src="/gnomescreen01.png" />
+              <Window1/>
             </div>
             <div className={styles.card}>
-              <WindowMockup src="/lite.jpeg" />
+              <Window2/>
             </div>
             <div className={styles.card}>
-              <WindowMockup src="/cinnamon.webp" />
+              <Window3/>
             </div>
           </div>
         </div>

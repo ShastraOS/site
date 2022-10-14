@@ -7,7 +7,7 @@ import "html5-device-mockups/dist/device-mockups.min.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { MdCode, MdOutlineDownload } from "react-icons/md";
-import Macbook1 from "../components/mockups/Macbook1";
+import SurfaceStudio from "../components/mockups/SurfaceStudio";
 import Window1 from "../components/mockups/window1";
 import Window2 from "../components/mockups/window2";
 import Window3 from "../components/mockups/window3";
@@ -61,9 +61,11 @@ export default function Home() {
               </button>
             </div>
           </section>
+
           <section className="mockupContainer">
-            <Macbook1/>
+            <SurfaceStudio/>
           </section>
+
         </div>
 
         <div className={styles.duoGrid}>

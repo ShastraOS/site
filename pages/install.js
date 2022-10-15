@@ -33,6 +33,9 @@ export default function Guide() {
           </section>
           <div className={styles.aboutScroll}>
             <section id="Download">
+            <br></br>
+            <br></br>
+            <br></br>
               <h3>Installation</h3>
               <h2>Download ISO file</h2>
               <p>
@@ -126,7 +129,7 @@ export default function Guide() {
                 Select your storage device, in which you want to install
                 ShastraOS. <br />
                 If the target hard drive has an operating system already
-                installed, Calamares is able to auto-detect it and give you the
+                installed, Calamares is able to auto-detect it and it gives you the
                 appropriate options.
                 <br />
                 <strong>You will get four options to install ShastraOS</strong>
@@ -138,14 +141,14 @@ export default function Guide() {
               </p>
               <h4>Replace a partition</h4>
               <p>
-                A partition will replaced by ShastraOS and all your previous
+                A partition will be replaced by ShastraOS and all your previous
                 data will be erased. You will be able to choose a partition to
                 replace.
               </p>
               <h4>Erase entire disk and install ShastraOS</h4>
               <p>
                 This is the most recommended way to install ShastraOS in your
-                machine. The disk you will choose will be erased and ShastraOS
+                machine. The disk you will choose will be completely erased and ShastraOS
                 will installed on that particular disk.
                 <br />
                 You will be able to make a swap of 8gb or swap with hibernate.
@@ -161,7 +164,7 @@ export default function Guide() {
                 especially recommended when you have less than 2Gb of RAM.
                 Although in the end, everything depends on you.
               </p>
-              <h4>Mannual Partitioning</h4>
+              <h4>Manual Partitioning</h4>
               <p>This is only recommended for andvanced users.</p>
               <p>
                 Select your own partitioning scheme. You must at least select an
@@ -175,10 +178,10 @@ export default function Guide() {
                 access). There&apos;s also an option to enable auto login at
                 boot.
               </p>
-              <strong>Now you will see summary in the next step.</strong>
+              <strong>Summarising the whole process</strong>
               <p>
                 Note that at this point no changes are physically done to the
-                device. So don&apos;t be afraid if you made a mistake somewhere,
+                device. So don't be afraid if you made a mistake somewhere during the whole process,
                 you can go back and correct it.
               </p>
               When you click &apos;Install&apos;, there&apos;s no going back. So
@@ -191,6 +194,7 @@ export default function Guide() {
             </section>
 
             <section id="AfterInstall">
+            <br></br>
               <h2>After Installation</h2>
               Once you reboot, you&apos;ll be greeted by the lock screen. Login
               and you are ready to use your ShastraOS <br />

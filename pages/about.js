@@ -21,9 +21,12 @@ export default function About() {
                 <div className={styles.duoGrid}>
                     <section>
                         <h1 className={styles.title}>Shastra OS</h1>
-                        <h3>A Linux based OS comes with privacy and security.</h3>
+                        <h3>A Linux based OS that comes with privacy and security.</h3>
                     </section>
                     <div className={styles.aboutScroll}>
+                        <br></br>
+                        <br></br>
+                        <br></br>
                         <h2>Developers</h2>
                         Shastra is currently under development. We are building it on top of Arch Linux.
                         Shastra OS is developed and designed by Vivek Pal in 2022.
@@ -34,23 +37,31 @@ export default function About() {
 
                         <ul>
                             <ol>Ships with pre-installed Brave Browser</ol>
-                            <ol>Latest Gnome Desktop with multiple falvours</ol>
+                            <ol>Latest Gnome Desktop with multiple flavours</ol>
                             <ol>Your Wallet for Ethereum and Bitcoin</ol>
                         </ul>
 
-                        <h3>Why Shastra</h3>
+                        <h3>Why Shastra?</h3>
+                        <p>You must be wondering, what makes ShastraOS different from other linux distros. Here are some answers to your queries</p>
+                        <br></br>
                         <ul>
                             <li>Completely yours</li>
                             <li>Customize it in your way</li>
                             <li>We need a new OS for a new generation</li>
-                            <li>Play your games with a smooth experience</li>
-                            <li>Privacy and Security are your right</li>
+                            <li>Have a smooth gaming experience</li>
+                            <li>We respect your privacy</li>
+                            <li>Ideal for Web3 Developers</li>
                         </ul>
+                        <br></br>
 
-                        <h4>When is it going to release officially?</h4>
+                        <h3>When is it going to release officially?</h3>
+                        {/* <br></br> */}
+
+                        <p>
                         Shastra OS is currently under development.
                         The beta release is out there. We are working hard for you to ship the first version very soon.
                         The first release of Shastra-Dignity would be released in 2022.
+                        </p>
 
                         <h3>
                             Shastra Dignity

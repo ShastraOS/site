@@ -47,7 +47,7 @@ export default function Devs() {
                             </div>
                         )}
                         </div>
-                        <p>Latest Realeses <a href="https://github.com/shastra-os/iso-build/releases">GitHub</a></p>
+                        <p>Other Members <a href="https://github.com/orgs/Shastra-OS/people">GitHub</a></p>
                         <p>Thanks for Visiting us</p>
                     </div>
                 </div>

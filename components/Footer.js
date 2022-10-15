@@ -2,7 +2,8 @@ import React from "react";
 import Link from "next/link"
 import styles from "../styles/Home.module.css";
 
-const yash={
+const stickyfooter
+={
   position:"fixed",
     right: "0",
     marginTop: "91vh",
@@ -13,7 +14,8 @@ const yash={
 }
 export default function Footer() {
   return (
-    <footer style={yash}>
+    <footer style={stickyfooter
+}>
       <div className="alignItems" >
         <Link href="/">Home</Link>
         <Link href="install">Guide</Link>

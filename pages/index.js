@@ -105,13 +105,13 @@ export default function Home() {
           </section>
           <div className={styles.carousel}>
             <div className={styles.card}>
-              <Window1/>
+            <WindowMockup src="/screenshots/cinnamonrep.png"/>
             </div>
             <div className={styles.card}>
-              <Window2/>
+            <WindowMockup src="/screenshots/screnshot2.png"/>
             </div>
             <div className={styles.card}>
-              <Window3/>
+            <WindowMockup src="/screenshots/screenshot3.png"/>
             </div>
           </div>
         </div>

@@ -4,9 +4,9 @@ const withPWA = require('next-pwa')
 ({
 	dest: 'public'
   })
-import runtimeCaching from 'next-pwa/cache';
+const runtimeCaching = require('next-pwa/cache')
 
-export default withPWA({
+module.exports = withPWA({
 
 	pwa: {
 		runtimeCaching,

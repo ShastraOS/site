@@ -48,6 +48,7 @@ export default function Devs() {
                             )}
                         </div>
                         <p>Other Members <a href="https://github.com/orgs/Shastra-OS/people">GitHub</a></p>
+                        <p>Join Community <a href="https://guild.xyz/shastraos">Here</a></p>
                         <p>Thanks for Visiting us</p>
                     </div>
                 </div>

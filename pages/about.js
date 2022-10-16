@@ -27,18 +27,21 @@ export default function About() {
                         <br></br>
                         <br></br>
                         <br></br>
-                        <h2>Developers</h2>
-                        Shastra is currently under development. We are building it on top of Arch Linux.
-                        Shastra OS is developed and designed by Vivek Pal in 2022.
+                        <h2>About ShastraOS</h2>
+                        ShastraOS is decentralised Linux Desktop OS. Which is built on top of Arch Linux and uses ShastraOS flavoured Gnome Desktop environment.
+                        ShastraOS is currently under development.
 	                    It is going to be completely free and open-source, code is available on Github.
                         <h3>What makes it different?</h3>
-                        It is the operating system that is completely built for Web 3 users. It is built on top of vanilla Arch Linux.
+                        It is the operating system that is completely built for users who prioritises privacy and security.
+                        ShastraOS will have its own decentralised packages repositories. We are giving you freedom to backup all user data on decentralised ways.
+                        Which gives ShastraOS capablity to easily shift your desktop from one instance to another.
                         It is optimized for fast browsing and privacy and security.
 
                         <ul>
                             <ol>Ships with pre-installed Brave Browser</ol>
                             <ol>Latest Gnome Desktop with multiple flavours</ol>
                             <ol>Your Wallet for Ethereum and Bitcoin</ol>
+                            <ol>Backup your data in decentralised way</ol>
                         </ul>
 
                         <h3>Why Shastra?</h3>
@@ -75,7 +78,7 @@ export default function About() {
                         <p>The beta release is available. It is an unstable version for now. But you can test it out and contribute to this open-source project.</p>
                         <div className={styles.buttonGap}>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
-                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastra-Beta-2022.07.22-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Get Shastra</button>
+                            <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastra-Beta-2022.07.22-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Get Pre</button>
                         </div>
 
                         <hr />

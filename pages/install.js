@@ -181,7 +181,7 @@ export default function Guide() {
               <strong>Summarising the whole process</strong>
               <p>
                 Note that at this point no changes are physically done to the
-                device. So don't be afraid if you made a mistake somewhere during the whole process,
+                device. So don&apos;t be afraid if you made a mistake somewhere during the whole process,
                 you can go back and correct it.
               </p>
               When you click &apos;Install&apos;, there&apos;s no going back. So

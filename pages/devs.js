@@ -31,8 +31,8 @@ export default function Devs() {
                     </section>
                     <div className={styles.aboutScroll}>
                         <div className={styles.teams}>
-                            {details.map(item =>
-                                <div>
+                            {details.map((item, index) =>
+                                <div key={index}>
                                     {item.username &&
                                         <div key={item.username}>
                                             <img title={item.username} src={github + item.username + png} className={styles.profileImg} />

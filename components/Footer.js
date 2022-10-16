@@ -20,7 +20,7 @@ export default function Footer() {
         <Link href="/">Home</Link>
         <Link href="install">Guide</Link>
         <Link href="about">About</Link>
-        <Link href="devs">Team</Link>
+        <Link href="devs">Community</Link>
       </div>
     </footer>
   );

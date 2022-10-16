@@ -4,11 +4,21 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { FaGithub, FaDiscord, FaReddit } from "react-icons/fa";
+import { FaDiscord, FaReddit, FaSun, FaMoon } from "react-icons/fa";
+import { useState } from "react";
 
-
+if(!global.lightTheme)
+    global.lightTheme = true;
 
 export default function Header() {
+    const [lightTheme, setLightTheme] = useState(global.lightTheme);
+
+    const themeChange  = () => {
+        var element = document.body;
+        element.classList.toggle(styles.darkMode);
+        global.lightTheme = !lightTheme;
+        setLightTheme(!lightTheme);
+    }
     return (
         <header>
             <Link href="/">
@@ -17,6 +27,7 @@ export default function Header() {
             <div className="alignItems">
                 <button className={styles.blueBtn} onClick={() => { window.open('https://www.reddit.com/r/shastraos', "_blank") }}><FaReddit className={styles.icon}/>REDDIT</button>        
                 <button className={styles.blueBtn} onClick={() => { window.open('https://discord.gg/5Z4UMvhppm', "_blank") }}><FaDiscord className={styles.icon}/>SUPPORT</button>
+                <button className={styles.changeTheme} onClick={themeChange} title="Change Theme">{lightTheme ? <FaSun className={styles.faSun} /> : <FaMoon />}</button>
             </div>
         </header>
     )

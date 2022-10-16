@@ -116,6 +116,28 @@
 	border-radius: 30%;
 	border: 2px solid #cacfcf;
 }
+.changeTheme {
+	background-color: transparent;
+	font-size: x-large;
+	padding-left: 0;
+}
+.changeTheme:hover {
+	transform: scale3d(1.25, 1.25, 1.25);
+	box-shadow: none;
+}
+.faSun {
+	color: rgb(255 131 0);
+}
+.darkMode {
+	background-color: rgb(54, 54, 54);
+	color: white;
+}
+.darkMode h1, .darkMode h3 {
+	color: white;
+}
+.darkMode ul li {
+	color: #000;
+}
 @media (min-width: 500px) {
 	.main {
 		padding: 0rem 1rem;

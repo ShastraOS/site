@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { MdCode, MdDownload } from "react-icons/md";
 import { FaTwitter, FaUserCircle } from "react-icons/fa";
-import details from "./teamDetails";
+import details from "../components/teamDetails";
 
 const github = "https://github.com/";
 const png = ".png";

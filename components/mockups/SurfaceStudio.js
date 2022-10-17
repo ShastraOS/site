@@ -17,7 +17,7 @@ export default function Macbook1() {
             >
               <iframe
                 title="showcase"
-                src="/screenshots/screen02.png"
+                src="/screenshots/screenshot2.png"
                 style={{
                   width: "100%",
                   height: "100%",

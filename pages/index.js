@@ -71,7 +71,7 @@ export default function Home() {
         <div className={styles.duoGrid}>
           <section>
             <ul>
-              <li>Currently under developemnt</li>
+              <li>Currently under development</li>
               <li>Easy to install applications</li>
               <li>Seamless experience with Gnome 42</li>
               <li>We care about your privacy and protection</li>

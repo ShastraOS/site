@@ -7,7 +7,7 @@
 .title {
 	line-height: 1.15;
 	font-size: 4rem;
-	color: #1b1714;
+	color: #3656b5;
 	margin-top: 1em;
 }
 
@@ -17,11 +17,11 @@
 	gap: 1em;
 }
 .headStyle h1 {
-	font-size: 4rem;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bolder;
-	color: #181512;
-	margin: 0;
+    font-size: 4rem;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bolder;
+    color: #3656b5;
+    margin: 0;
 }
 .headStyle span {
 	font-size: 20px;
@@ -119,24 +119,29 @@
 .changeTheme {
 	background-color: transparent;
 	font-size: x-large;
-	padding-left: 0;
+	/* padding-left: 0; */
 }
 .changeTheme:hover {
 	transform: scale3d(1.25, 1.25, 1.25);
 	box-shadow: none;
 }
 .faSun {
-	color: rgb(255 131 0);
+	color: #ffffff;
 }
 .darkMode {
 	background-color: rgb(54, 54, 54);
 	color: white;
 }
-.darkMode h1, .darkMode h3 {
-	color: white;
-}
+.darkMode h1, .darkMode h3, .darkMode h2, .darkMode h4 {
+	color: #a6bcff;
+}	
 .darkMode ul li {
-	color: #000;
+	color: #ffffff;
+}
+.darkmode footer a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #a6bcff;
 }
 @media (min-width: 500px) {
 	.main {

@@ -67,15 +67,16 @@ export default function About() {
                         </p>
 
                         <h3>
-                            Shastra Dignity
+                            ShastraOS Preview
                         </h3>
-                        Shastra Dignity is a rolling release version of Shastra OS.
+                        ShastraOS Preview is a rolling release version of Shastra OS.
                         Which means we will ship updates as soon we have them.
+                        But you will not be able to install it into your system.
                         Supports latest Nvidia GPUs with Latest Nvidia open drivers.
 
                         <hr />
                         <h2>Beta Release</h2>
-                        <p>The beta release is available. It is an unstable version for now. But you can test it out and contribute to this open-source project.</p>
+                        <p>The beta release will be available very soon.  Developers are working hard to give you public release as soon as possible. It is an unstable version for now. But you can test it out and contribute to this open-source project.</p>
                         <div className={styles.buttonGap}>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://github.com/shastra-os', "_blank") }}><MdCode className={styles.icon}/>GitHub</button>
                             <button className={styles.whiteBtn} onClick={() => { window.open('https://osdn.net/frs/redir.php?m=gigenet&f=shastraos%2F77132%2FShastra-Beta-2022.07.22-x86_64.iso', "_blank") }}><MdDownload className={styles.icon}/>Get Pre</button>

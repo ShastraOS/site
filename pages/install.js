@@ -23,13 +23,13 @@ export default function Guide() {
       <main className={styles.main}>
         <div className={styles.duoGrid}>
           <section>
-            <h1 className={styles.title}>Shastra Beta</h1>
-            <h3>Here is the installation guide for Shastra Beta</h3>
+            <h1 className={styles.title}>ShastraOS Preview</h1>
+            <h3>Here is the installation guide for ShastraOS Preview</h3>
             <a href="#Download">Download Latest iso file</a>
             <a href="#Verify">Verify the iso file</a>
             <a href="#Install">Install</a>
-            <a href="#AfterInstall">After Installation</a>
-            <a href="#Packages">ShastraOS Packages and applications</a>
+            {/* <a href="#AfterInstall">After Installation</a>
+            <a href="#Packages">ShastraOS Packages and applications</a> */}
           </section>
           <div className={styles.aboutScroll}>
             <section id="Download">
@@ -61,7 +61,7 @@ export default function Guide() {
                   <a href="https://sourceforge.net/projects/shastra/files/latest/download">
                     Sourceforge mirror
                   </a>
-                  . Sourceforge has the very latest ShastraOS Beta image file.
+                  . Sourceforge has the very latest ShastraOS Preview image file.
                   It can have some installation issues on some devices.
                 </p>
               </div>
@@ -69,7 +69,7 @@ export default function Guide() {
             <section id="Verify">
               <h2>Verify your ShastraOS ISO file</h2>
               <p>
-                While you can just download a hastraOS ISO image, can you be
+                While you can just download a ShastraOS ISO image, can you be
                 really sure that it&apos;s the right file? With a few simple
                 steps, you can verify the integrity of any ShastraOS ISO.
                 Here&apos;s how to do it.
@@ -82,13 +82,12 @@ export default function Guide() {
               </p>
               <h4>
                 Here are the checksums for iso file
-                Shastra-Beta-2022.07.12-x86_64.iso
+                ShastraOS-preview-2022.10.18-x86_64.iso
               </h4>
               <p>
-                File Size 2,201,399,296 bytes MD5 <br />
-                7cf48a4decb01c76fb0ac56913219fc2 SHA1 <br />
-                60b5cec7bca1fce0d156bd80097767a7c0a852ce SHA256 <br />
-                71bd288e0c37adad8413cde809e1c1271397a3cff806f171fe89584156ee0353
+                File Size 2,140,483,584 bytes <br />
+                96c236537106f6727d1f6c91fc8b0dae67987023 SHA1 <br />
+                2e5d931dfba375aaa67ae83ce9df384d958c7010d2526c91e00b64a94e674a53 SHA256
               </p>
               <h3>Booting ISO using USB drive</h3>
             </section>
@@ -101,8 +100,8 @@ export default function Guide() {
                 <br />
                 You can also use Ventoy (On other device)
               </p>
-              <p>After Booting ISO file, your system will be loaded.</p>
-              <h2>Installing into your PC</h2>
+              <p>After Booting ISO file, your system will be loaded.</p> 
+             {/* <h2>Installing into your PC</h2>
               <p>
                 Calamares is a new system installation framework designed to be
                 easily customized and used as the installation program for any
@@ -190,10 +189,10 @@ export default function Guide() {
               will begin. It will take around 10-15 minutes. Once the
               installation is completed, you&apos;re given the option of
               rebooting your PC or staying in the live environment. Tick the
-              Reboot Now box and press finish if you want to reboot.
+              Reboot Now box and press finish if you want to reboot. */}
             </section>
 
-            <section id="AfterInstall">
+            {/* <section id="AfterInstall">
             <br></br>
               <h2>After Installation</h2>
               Once you reboot, you&apos;ll be greeted by the lock screen. Login
@@ -232,7 +231,7 @@ export default function Guide() {
               <h3>Set the fastest mirror</h3>
               Open the Terminal emulator and type the following command:
               <code>sudo pacman-mirrors --fasttrack</code>
-            </section>
+            </section> */}
 
             <section id="Backups">
               <h2>Backups</h2>

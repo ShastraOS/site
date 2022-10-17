@@ -35,9 +35,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.duoGrid}>
           <section className={styles.padding2em}>
-            <h2>Your Decentralized OS</h2>
+            <h2>Your own decentralized OS</h2>
             <div className={styles.headStyle}>
-              <h1>ShastraOS- Dignity</h1>
+              <h1>ShastraOS</h1>
               {/* <span>v{versionData}</span> */}
             </div>
             <div className={styles.buttonGap}>
@@ -75,20 +75,20 @@ export default function Home() {
               <li>Easy to install applications</li>
               <li>Seamless experience with Gnome 42</li>
               <li>We care about your privacy and protection</li>
-              <li>Privacy Redefined: Shastra Comes with Brave browser preinstalled</li>
+              <li>Privacy Redefined</li>
+              <li>Brave browser preinstalled</li>
             </ul>
           </section>
           <section className={styles.padding2em}>
             <h1 className={styles.title}>Shastra Dignity Beta</h1>
             <h2>
-              The Beta version of Shastra; Dignity is out there. It is for
-              development and testing. The first public version is coming soon.
+              The Preview version of Shastra; Dignity is out there. You can try running it on your desktop. The first public beta version is coming soon.
             </h2>
             <p className={styles.description}>
               Anyone can help us by contributing to the Shastra Project.
-              The Beta version is released to give you a taste of upcoming
-              ShastraOS versions. You can run it on your PC and test it out. If
-              you are facing some issues regarding installation or post-installation, you can report them in our GitHub repo. Shastra Dignity is the rolling version of ShastraOS, which
+              The Preview version is released to give you a taste of upcoming
+              ShastraOS versions. You can run it on your PC and test it out. It is unstable for now. If
+              you are facing any type of issues you can report them in our GitHub repo. ShastraOS Preview is the rolling version of ShastraOS, which
               means as soon as it&apos;s stable, we will push the update.
             </p>
           </section>

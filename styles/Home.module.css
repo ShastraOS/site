@@ -28,7 +28,7 @@
 	font-weight: bold;
 	border-radius: 10px;
 	padding: 0.3em 0.6em;
-	background-color: rgb(238, 238, 238);
+	background-color: rgb(239, 233, 245);
 	color: rgb(131, 125, 115);
 }
 
@@ -128,20 +128,34 @@
 .faSun {
 	color: #ffffff;
 }
+
 .darkMode {
-	background-color: rgb(54, 54, 54);
-	color: white;
+	background-color: rgb(14, 14, 15);
+	color: rgb(216, 213, 224);
 }
 .darkMode h1, .darkMode h3, .darkMode h2, .darkMode h4 {
-	color: #a6bcff;
+	color: #dedde7;
 }	
 .darkMode ul li {
-	color: #ffffff;
+	background: linear-gradient(315deg, rgba(8, 12, 48, 0.336), rgba(32, 8, 56, 0.281));
+	color: #dedbe7;
+
 }
+.darkMode header {
+	background: radial-gradient(
+		86.36% 107.55% at 6.49% 12.32%,
+		rgba(18, 5, 46, 0.356) 0%,
+		rgba(6, 28, 49, 0.329) 100%
+	);
+	border: 1px solid rgba(246, 239, 250, 0.103);
+}
+
+
+
 .darkmode footer a:hover{
 	text-decoration: underline;
 	cursor: pointer;
-	color: #a6bcff;
+	color: #a6a7ff;
 }
 @media (min-width: 500px) {
 	.main {

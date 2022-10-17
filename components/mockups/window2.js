@@ -6,7 +6,7 @@ import { MdCode, MdOutlineDownload } from "react-icons/md";
 export default function Window2() {
     return (
         <>
-        <WindowMockup src="/gnomescreen01.png" />
+        <WindowMockup src="./screenshots/screen03.png" />
         </>
     )
 }

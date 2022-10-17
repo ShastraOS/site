@@ -89,27 +89,27 @@ export default function Home() {
               The Beta version is released to give you a taste of upcoming
               ShastraOS versions. You can run it on your PC and test it out. If
               you are facing some issues regarding installation or post-installation, you can report them in our GitHub repo. Shastra Dignity is the rolling version of ShastraOS, which
-              means as soon as it's stable, we will push the update.
+              means as soon as it&apos;s stable, we will push the update.
             </p>
           </section>
         </div>
 
         <div className={styles.duoGrid}>
           <section className={styles.padding2em}>
-            <h1 className={styles.title}>3 different distributions of Shastra to every users requirements</h1>
+            <h1 className={styles.title}>Different flavours of ShastraOS</h1>
             <h2>Gnome &rarr;</h2>
             <h2>Gnome Lite &rarr;</h2>
             <h2>Cutefish (Not Developed) &rarr;</h2>
           </section>
           <div className={styles.carousel}>
             <div className={styles.card}>
-            <WindowMockup src="/screenshots/cinnamonrep.png"/>
+            <Window1/>
             </div>
             <div className={styles.card}>
-            <WindowMockup src="/screenshots/screnshot2.png"/>
+            <Window2/>
             </div>
             <div className={styles.card}>
-            <WindowMockup src="/screenshots/screenshot3.png"/>
+            <Window3/>
             </div>
           </div>
         </div>

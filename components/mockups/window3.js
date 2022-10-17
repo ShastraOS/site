@@ -6,7 +6,7 @@ import { MdCode, MdOutlineDownload } from "react-icons/md";
 export default function Window3() {
     return (
         <>
-        <WindowMockup src="/cinnamonrep.png" />
+        <WindowMockup src="/screenshots/lite.jpeg" />
         </>
     )
 }

@@ -15,8 +15,8 @@ export default function Macbook1() {
                 onClick: () => alert("Home Button Clicked!"),
               }}
             >
-              <iframe
-                title="showcase"
+              <img
+                alt="showcase"
                 src="/screenshots/screenshot2.png"
                 style={{
                   width: "100%",

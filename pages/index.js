@@ -79,9 +79,9 @@ export default function Home() {
             </ul>
           </section>
           <section className={styles.padding2em}>
-            <h1 className={styles.title}>Shastra Dignity Beta</h1>
+            <h1 className={styles.title}>ShastraOS Preview</h1>
             <h2>
-              The Preview version of Shastra; Dignity is out there. You can try running it on your desktop. The first public beta version is coming soon.
+              The Preview version of ShastraOS is rolled out. You can try running it on your desktop. The first public beta version is coming soon.
             </h2>
             <p className={styles.description}>
               Anyone can help us by contributing to the Shastra Project.

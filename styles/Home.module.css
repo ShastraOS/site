@@ -118,15 +118,13 @@
 }
 .changeTheme {
 	background-color: transparent;
-	font-size: x-large;
-	/* padding-left: 0; */
+	font-size: large;
+	margin-right: 1em;
 }
-.changeTheme:hover {
-	transform: scale3d(1.25, 1.25, 1.25);
-	box-shadow: none;
-}
+
 .faSun {
 	color: #ffffff;
+	font-size: large;
 }
 
 .darkMode {

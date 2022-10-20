@@ -161,6 +161,9 @@ footer {
 	top: 15px;
 	box-sizing: border-box;
 	border: 1px solid rgba(240, 232, 232, 0.096);
+	/* margin-top: 47% ; */
+	right: 0;
+	bottom: 1%;
 }
 footer a {
 	text-decoration: none;
@@ -250,6 +253,9 @@ footer a:hover{
 		display: none;
 	}
 	header{
+		width: 120%;
+	}
+	footer{
 		width: 120%;
 	}
   }

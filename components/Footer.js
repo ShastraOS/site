@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer style={stickyfooter
 }>
-      <div className="alignItems" >
+      <div className="alignItems-f" >
         <Link href="/">Home</Link>
         <Link href="install">Guide</Link>
         <Link href="about">About</Link>

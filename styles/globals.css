@@ -171,11 +171,6 @@ footer a:hover{
 	color: #3656b5;
 }
 
-.darkmode footer a:hover{
-	text-decoration: underline;
-	cursor: pointer;
-	color: #c2caff;
-}
 
 @media (max-width: 501px) and (min-width: 1270px) {
 	header {
@@ -216,8 +211,6 @@ footer a:hover{
 	position: relative;
 	display: inline-block;
   }
-  
-  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
 	display: none;
 	position: absolute;

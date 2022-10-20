@@ -152,9 +152,7 @@
 .darkMode .dropdown-content {
 	background-color: rgb(14, 14, 15);
 		color: #ffffff;	
-} 
-
-.darkmode footer a:hover{
+}.darkmode footer a:hover{
 	text-decoration: underline;
 	cursor: pointer;
 	color: #a6a7ff;

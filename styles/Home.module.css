@@ -132,6 +132,7 @@
 	background-color: rgb(14, 14, 15);
 	color: rgb(216, 213, 224);
 }
+
 .darkMode h1, .darkMode h3, .darkMode h2, .darkMode h4 {
 	color: #dedde7;
 }	
@@ -148,10 +149,10 @@
 	);
 	border: 1px solid rgba(246, 239, 250, 0.103);
 }
-
-
-
-.darkmode footer a:hover{
+.darkMode .dropdown-content {
+	background-color: rgb(14, 14, 15);
+		color: #ffffff;	
+}.darkmode footer a:hover{
 	text-decoration: underline;
 	cursor: pointer;
 	color: #a6a7ff;

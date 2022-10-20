@@ -68,7 +68,14 @@ header img:hover {
 header a {
 	text-decoration: none;
 }
-.alignItems {
+.alignItems-h {
+	display: flex;
+	flex-direction: row;
+	align-items: right;
+	gap: 2em;
+	/* margin-right: 0; */
+}
+.alignItems-f {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -164,11 +171,6 @@ footer a:hover{
 	color: #3656b5;
 }
 
-.darkmode footer a:hover{
-	text-decoration: underline;
-	cursor: pointer;
-	color: #c2caff;
-}
 
 @media (max-width: 501px) and (min-width: 1270px) {
 	header {
@@ -180,7 +182,6 @@ footer a:hover{
 		margin: 5px 10rem;
 	}
 }
-
 .mockupContainer {
 	animation: mockupContainerAni infinite 4s;
 	animation-direction: alternate;
@@ -195,3 +196,60 @@ footer a:hover{
 		transform: perspective(600px) rotateX(2deg) rotateY(2deg);
 	}
 }
+
+
+/* Dropdown */
+.dropbtn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  }
+
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+	/* background-color: rgb(14, 14, 15); */
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+	text-decoration: underline;
+	cursor: pointer;
+}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  @media (min-width:513px){
+	.dropbtn{
+		display: none;
+	}
+	.alignItems-h{
+		margin-right: -60%;
+	}
+  }
+  @media (max-width:512px){
+	.alignItems-h button{
+		display: none;
+	}
+	header{
+		width: 120%;
+	}
+  }

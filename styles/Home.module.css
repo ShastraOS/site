@@ -149,6 +149,14 @@
 	);
 	border: 1px solid rgba(246, 239, 250, 0.103);
 }
+.darkMode footer {
+	background: radial-gradient(
+		86.36% 107.55% at 6.49% 12.32%,
+		rgba(18, 5, 46, 0.356) 0%,
+		rgba(6, 28, 49, 0.329) 100%
+	);
+	border: 1px solid rgba(246, 239, 250, 0.103);
+}
 .darkMode .dropdown-content {
 	background-color: rgb(14, 14, 15);
 		color: #ffffff;	
@@ -194,4 +202,26 @@
 	.duoGrid li {
 		font-size: 22px;
 	}
+}
+@media (max-width:512px){
+	.carousel{
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	/* width: 100%; */
+	height: min-content;
+	margin: auto 0;
+	/* border-radius: 50px; */
+	}
+	.carousel .card {
+		margin: 1rem;
+		/* margin-top: 250px; */
+		padding: 1rem;
+		border: 2px solid rgb(238, 238, 238);
+		border-radius: 2px;
+		/* min-width: 500px; */
+		max-width: fit-content;
+		height: min-content;
+	}
+	
 }

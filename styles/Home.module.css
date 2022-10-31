@@ -62,8 +62,7 @@
 .duoGrid .aboutScroll {
 	overflow-y: scroll;
 	padding: 1em 1em;
-	margin-top: 3em;
-	margin-bottom: 3em;
+	margin: 3em 0;
 }
 
 .carousel {

@@ -67,8 +67,11 @@ export default function Guide() {
             </div>
           </section>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </main>
-
       <Footer />
     </div>
   );

@@ -163,7 +163,6 @@ footer {
 	border: 1px solid rgba(240, 232, 232, 0.096);
 	/* margin-top: 47% ; */
 	right: 0;
-	bottom: 1%;
 }
 footer a {
 	text-decoration: none;
@@ -257,5 +256,8 @@ footer a:hover{
 	}
 	footer{
 		width: 120%;
+	}
+	br{
+		display:none;
 	}
   }

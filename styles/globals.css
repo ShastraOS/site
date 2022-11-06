@@ -34,11 +34,8 @@ hr {
 header {
 	position: sticky;
 	/* background-color: rgb(222, 216, 235); */
-	background: radial-gradient(
-		86.36% 107.55% at 6.49% 12.32%,
-		rgba(235, 234, 238, 0.7) 0%,
-		rgba(224, 227, 230, 0.7) 100%
-	);
+	background: rgb(161,115,196);
+	background: linear-gradient(270deg, rgba(161,115,196,0.40940126050420167) 0%, rgba(175,150,235,0.42620798319327735) 46%, rgba(195,209,255,0.38139005602240894) 100%);
 	backdrop-filter: blur(16px);
 	border-radius: 20px;
 	display: -webkit-flex;

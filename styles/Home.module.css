@@ -144,8 +144,8 @@ background: linear-gradient(257deg, rgba(51,28,54,1) 0%, rgba(23,15,18,1) 100%);
 .darkMode header {
 	background: radial-gradient(
 		86.36% 107.55% at 6.49% 12.32%,
-		rgba(18, 5, 46, 0.356) 0%,
-		rgba(6, 28, 49, 0.329) 100%
+		rgba(18, 5, 46, 0.281) 0%,
+		rgba(6, 28, 49, 0.219) 100%
 	);
 	border: 1px solid rgba(246, 239, 250, 0.103);
 }

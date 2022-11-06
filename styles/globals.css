@@ -157,7 +157,7 @@ footer {
 	padding: 15px;
 	top: 15px;
 	box-sizing: border-box;
-	border: 1px solid rgba(240, 232, 232, 0.096);
+	border: 1px solid rgba(236, 232, 240, 0.048);
 	/* margin-top: 47% ; */
 	right: 0;
 }
@@ -167,7 +167,7 @@ footer a {
 footer a:hover{
 	text-decoration: underline;
 	cursor: pointer;
-	color: #3656b5;
+	color: #5449f7;
 }
 
 

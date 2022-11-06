@@ -128,7 +128,8 @@
 }
 
 .darkMode {
-	background-color: rgb(14, 14, 15);
+	background: rgb(51,28,54);
+background: linear-gradient(257deg, rgba(51,28,54,1) 0%, rgba(23,15,18,1) 100%);
 	color: rgb(216, 213, 224);
 }
 

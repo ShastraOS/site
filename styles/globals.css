@@ -65,6 +65,14 @@ header img:hover {
 header a {
 	text-decoration: none;
 }
+
+.alignItems {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1em;
+	}
+
 .alignItems-h {
 	display: flex;
 	flex-direction: row;

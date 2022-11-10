@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { MdCode, MdDownload } from "react-icons/md";
-import { FaTwitter, FaUserCircle } from "react-icons/fa";
+import { FaDiscord, FaReddit, FaTwitter, FaUser, FaUserCircle } from "react-icons/fa";
 import details from "../components/teamDetails";
 
 const github = "https://github.com/";
@@ -27,10 +27,17 @@ export default function Devs() {
                 <div className={styles.duoGrid}>
                     <section>
                         <h1 className={styles.title}>Shastra OS</h1>
-                        <h2>Developers & Contributors</h2>
+                        <h2>Join Our Community</h2>
+                            <div className="alignItems">
+                                <button className={styles.blueBtn} onClick={() => { window.open('https://guild.xyz/shastraos', "_blank") }}><FaUser className={styles.icon}/>Join</button>
+                                <button className={styles.blueBtn} onClick={() => { window.open('https://discord.com/invite/5Z4UMvhppm', "_blank") }}><FaDiscord className={styles.icon}/>Discord</button>
+                                <button className={styles.blueBtn} onClick={() => { window.open('https://twitter.com/ShastraOS', "_blank") }}><FaTwitter className={styles.icon}/>Twitter</button>
+                                <button className={styles.blueBtn} onClick={() => { window.open('https://www.reddit.com/r/shastraos', "_blank") }}><FaReddit className={styles.icon}/>Reddit</button>
+                            </div>   
                     </section>
                     <div className={styles.aboutScroll}>
                         <div className={styles.teams}>
+                        <h2>Developers & Contributors</h2>
                             {details.map((item, index) =>
                                 <div key={index}>
                                     {item.username &&
@@ -48,7 +55,6 @@ export default function Devs() {
                             )}
                         </div>
                         <p>Other Members <a href="https://github.com/orgs/Shastra-OS/people">GitHub</a></p>
-                        <p>Join Community <a href="https://guild.xyz/shastraos">Here</a></p>
                         <p>Thanks for Visiting us</p>
                     </div>
                 </div>

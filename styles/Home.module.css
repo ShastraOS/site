@@ -157,10 +157,8 @@ background: linear-gradient(257deg, rgba(51,28,54,1) 0%, rgba(23,15,18,1) 100%);
 	);
 	border: 1px solid rgba(246, 239, 250, 0.103);
 }
-.darkMode .dropdown-content {
-	background-color: rgb(14, 14, 15);
-		color: #ffffff;	
-}.darkmode footer a:hover{
+
+.darkmode footer a:hover{
 	text-decoration: underline;
 	cursor: pointer;
 	color: #a6a7ff;

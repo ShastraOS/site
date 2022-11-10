@@ -17,8 +17,8 @@ export default function Footer() {
     <footer>
       <div className="alignItems-f" >
         <Link href="/">Home</Link>
-        <Link href="install">Guide</Link>
-        <Link href="about">About</Link>
+        <Link href="install">Quick Guide</Link>
+        <Link href="info">About</Link>
         <Link href="devs">Community</Link>
       </div>
     </footer>

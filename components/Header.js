@@ -5,7 +5,7 @@ import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import { FaSun, FaMoon, } from "react-icons/fa";
-import {Wallet} from "../public/icons/Wallet.png"
+// import {Wallet} from "../public/icons/Wallet.png"
 import { useState } from "react";
 
 if(!global.lightTheme)

@@ -1,8 +1,0 @@
-{
-    "[yaml]": {
-    "breadcrumbs.showConstants": true,
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "advanced"
-    }
-}

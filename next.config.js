@@ -6,14 +6,23 @@ const withOptimizedImages = require('next-optimized-images');
 const withTM = require('next-transpile-modules')(['@modulz/design-system']);
 
 module.exports = withPlugins([withTM, withOptimizedImages, withVideos], {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"]
+    });
+
+    return config;
+  },
   // Next.js config
   async redirects() {
     return [
       {
         source: '/docs',
-        destination: '/docs/overview',
+        destination: '/docs/installation',
         permanent: true,
       },
     ];
   },
+  
 });

@@ -3,7 +3,6 @@ import NextLink from 'next/link';
 import { Section, Container, Box, Heading, Code, Grid, Flex, Tooltip, Text, IconButton, theme, Paragraph, } from '@modulz/design-system';
 import { HomepageButton } from '@components/HomepageButton';
 import { ArrowRightIcon, ExternalLinkIcon, CopyIcon, CheckIcon } from '@modulz/radix-icons';
-import copy from 'copy-to-clipboard';
 
 export function Hero() {
   const [hasCopied, setHasCopied] = React.useState(false);

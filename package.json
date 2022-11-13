@@ -10,6 +10,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@emotion/styled": "^11.10.5",
     "@mdx-js/loader": "1.6.22",
     "@modulz/design-system": "0.6.2",
     "@modulz/radix-icons": "4.0.0",
@@ -48,6 +49,7 @@
     "remark-autolink-headings": "6.0.1",
     "remark-slug": "6.0.0",
     "seamless-scroll-polyfill": "1.2.3",
+    "twin.macro": "^3.0.0",
     "unified": "9.2.1",
     "unist-util-visit": "2.0.3",
     "webpack": "^5.75.0"

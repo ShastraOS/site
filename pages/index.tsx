@@ -3,9 +3,6 @@ import { Box, Card, Flex, Heading, Container, Section, Separator, Grid, Link, Pa
 import { Titles } from '@components/Titles';
 import { Header } from '@components/Header';
 import { Hero } from '@components/Hero';
-// import { FeaturesGrid } from '@components/Features';
-// import { Community } from '@components/Community';
-import { StarFilledIcon } from '@modulz/radix-icons';
 
 const variantsCode = `const Button = styled('button', {
   // base styles
@@ -234,13 +231,6 @@ export default function Home() {
         <Separator size="2" />
       </Flex> */}
 
-      {/* <Community /> */}
-{/* 
-      <Flex css={{ justifyContent: 'center' }}>
-        <Separator size="2" />
-      </Flex> */}
-
-      {/* <FeaturesGrid /> */}
     </Box>
   );
 }

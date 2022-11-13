@@ -11,7 +11,7 @@ module.exports = withPlugins([withTM, withOptimizedImages, withVideos], {
     return [
       {
         source: '/docs',
-        destination: '/docs/installation',
+        destination: '/docs/overview',
         permanent: true,
       },
     ];

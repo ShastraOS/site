@@ -210,7 +210,7 @@ export default function Home() {
 
   return (
     <Box>
-      <Titles title="Stitches — CSS-in-JS with near-zero runtime" />
+      <Titles title="ShastraOS - Powerful Decentralised OS" />
       <Box
         css={{
           top: 0,

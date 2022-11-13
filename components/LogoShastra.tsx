@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const Logo = () => (
+export const LogoShastra = () => (
     <><svg
         id="svg"
         version="1.1"

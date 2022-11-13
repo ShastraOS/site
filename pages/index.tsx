@@ -3,7 +3,7 @@ import { Box, Card, Flex, Heading, Container, Section, Separator, Grid, Link, Pa
 import { Titles } from '@components/Titles';
 import { Header } from '@components/Header';
 import { Hero } from '@components/Hero';
-import { FeaturesGrid } from '@components/Features';
+import { FeaturesGrid } from '@components/FeaturesGrid';
 import { Community } from '@components/Community';
 import { StarFilledIcon } from '@modulz/radix-icons';
 
@@ -220,10 +220,10 @@ export default function Home() {
           position: 'absolute',
           zIndex: '-1',
           background:
-            'radial-gradient(circle at 30% 60%,, $violet8, rgba(255, 255, 255, 0) 15%), radial-gradient(circle at 40% 60%, $indigo4, rgba(255, 255, 255, 0) 20%)',
+            'radial-gradient(circle at 15% 80%, $violet5, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 50% 20%, $indigo6, rgba(255, 255, 255, 0) 65%), radial-gradient(circle at 85% 80%, $plum3, rgba(255, 255, 255, 0) 35%)',
           '@bp2': {
             background:
-              'radial-gradient(circle at 15% 80%, $violet4, rgba(255, 255, 255, 0) 25%), radial-gradient(circle at 50% 30%, $indigo4, rgba(255, 255, 255, 0) 55%)',
+              'radial-gradient(circle at 15% 80%, $violet5, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 50% 20%, $indigo6, rgba(255, 255, 255, 0) 65%), radial-gradient(circle at 85% 80%, $bronze3, rgba(255, 255, 255, 0) 35%)',
           },
         }}
       />

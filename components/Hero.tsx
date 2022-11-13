@@ -23,14 +23,15 @@ export function Hero() {
     >
       <Container size="3">
         <Heading
+        as="h1"
           size="4"
           css={{
-            mb: '$3',
+            mb: '$4',
             '@bp1': {
               pr: 100,
             },
             '@bp2': {
-              ta: 'center',
+              ta: 'left',
               px: 180,
             },
             '@bp3': {
@@ -41,19 +42,20 @@ export function Hero() {
           ShastraOS
         </Heading>
         <Paragraph
-          size="1"
+          size="2"
+          as="h4"
           css={{
-            mb: '$6',
+            mb: '$8',
             '@bp2': {
-              mx: 230,
-              ta: 'center',
-              mb: '$7',
+              mx: 210,
+              ta: 'left',
+              mb: '$9',
             },
           }}
         >
          Decentralized Desktop OS For 21st Centurary. A desktop that brings full privacy and security with fluent exprience.
         </Paragraph>
-        <Flex css={{ '@bp2': { jc: 'center', my: '$7' } }}>
+        <Flex css={{ '@bp2': { jc: 'center', my: '$5' } }}>
           <NextLink href="/docs" passHref>
             <HomepageButton as="a" color="violet" css={{ mr: '$3' }}>
               ShastraOS Preview

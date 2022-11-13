@@ -30,6 +30,7 @@ export function Hero() {
             '@bp1': {
               pr: 100,
             },
+            fontWeight: 700,
             '@bp2': {
               ta: 'left',
               px: 180,
@@ -82,7 +83,7 @@ export function Hero() {
       <Section size={{ '@initial': '2', '@bp1': '3' }}>
         <Container size="3">
 
-          <Heading as="h3" size="3" css={{ fontWeight: 500, ta: 'center', mb: '$8' }}>
+          <Heading as="h3" size="3" css={{ fontWeight: 700, ta: 'center', mb: '$8' }}>
             Why ShastraOS
           </Heading>
 

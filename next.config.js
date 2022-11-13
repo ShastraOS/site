@@ -1,17 +1,28 @@
-/** @type {import('next').NextConfig} */
+const readingTime = require('reading-time');
+const withPlugins = require('next-compose-plugins');
+const withVideos = require('next-videos');
+const withOptimizedImages = require('next-optimized-images');
 
-const withPWA = require('next-pwa')
-({
-	dest: 'public'
-  })
-const runtimeCaching = require('next-pwa/cache')
+const withTM = require('next-transpile-modules')(['@modulz/design-system']);
 
-module.exports = withPWA({
+module.exports = withPlugins([withTM, withOptimizedImages, withVideos], {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"]
+    });
 
-	pwa: {
-		runtimeCaching,
-		dest: "public",
-		register: true,
-		skipWaiting: true,
-	}
+    return config;
+  },
+  // Next.js config
+  async redirects() {
+    return [
+      {
+        source: '/docs',
+        destination: '/docs/installation',
+        permanent: true,
+      },
+    ];
+  },
+  
 });

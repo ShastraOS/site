@@ -1,0 +1,21 @@
+---
+title: Title
+publishedAt: 'XXXXXX'
+description: lorem ipsum
+by: demo
+poster: blog/demo.png
+---
+
+<Image
+  title="title"
+  src="/blog/demo.png"
+  size="hero"
+/>
+
+Lorem Ipsum .....
+
+---
+
+### ABC
+
+Lorem ipsum ...

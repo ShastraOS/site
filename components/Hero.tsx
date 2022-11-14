@@ -1,6 +1,6 @@
 import React from 'react';
 import NextLink from 'next/link';
-import { Section, Container, Box, Heading, Code, Grid, Flex, Tooltip, Text, IconButton, theme, Paragraph, } from '@modulz/design-system';
+import { Section, Container, Box, Heading, Grid, Flex, Tooltip, Text, IconButton, Separator, theme, Paragraph, } from '@modulz/design-system';
 import { HomepageButton } from '@components/HomepageButton';
 import { ArrowRightIcon, ExternalLinkIcon, CopyIcon, CheckIcon } from '@modulz/radix-icons';
 import copy from 'copy-to-clipboard';
@@ -40,7 +40,27 @@ export function Hero() {
             },
           }}
         >
-          ShastraOS: Decentralized Desktop OS For 21st Centurary.
+          ShastraOS
+        </Heading>
+        <Heading
+        as="h2"
+          size="3"
+          css={{
+            mb: '$3',
+            '@bp1': {
+              pr: 100,
+            },
+            fontWeight: 700,
+            '@bp2': {
+              ta: 'left',
+              px: 180,
+            },
+            '@bp3': {
+              px: 200,
+            },
+          }}
+        >
+          Decentralized Desktop OS For 21st Centurary
         </Heading>
         <Paragraph
           size="2"
@@ -54,10 +74,11 @@ export function Hero() {
             },
           }}
         >
-        A desktop that brings full privacy and security with fluent exprience.
+        A desktop that brings full privacy and security with fluent exprience. <br />
+        Currently under development
         </Paragraph>
-        <Flex css={{ '@bp2': { jc: 'center', my: '$5' } }}>
-          <NextLink href="/docs" passHref>
+        <Flex css={{ '@bp2': { mx: 210, jc: 'left', my: '$5' } }}>
+          <NextLink href="/preview" passHref>
             <HomepageButton as="a" color="violet" css={{ mr: '$3' }}>
               ShastraOS Preview
               <Box css={{ ml: '$1' }}>
@@ -79,6 +100,10 @@ export function Hero() {
           </HomepageButton>
         </Flex>
       </Container>
+
+      <Flex css={{ justifyContent: 'center' }}>
+        <Separator size="2" />
+      </Flex>
 
       <Section size={{ '@initial': '2', '@bp1': '3' }}>
         <Container size="3">

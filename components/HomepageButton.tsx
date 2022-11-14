@@ -31,6 +31,34 @@ export const HomepageButton = styled('button', {
         },
       },
 
+      indigo: {
+        backgroundColor: '$indigo5',
+        color: '$indigo11',
+        '&:hover': {
+          backgroundColor: '$indigo6',
+        },
+        '&:active': {
+          backgroundColor: '$indigo7',
+        },
+        '&:focus': {
+          boxShadow: '0 0 0 1px $colors$indigo9, inset 0 0 0 1px $colors$indigo10',
+        },
+      },
+
+      bronze: {
+        backgroundColor: '$bronze5',
+        color: '$bronze11',
+        '&:hover': {
+          backgroundColor: '$bronze6',
+        },
+        '&:active': {
+          backgroundColor: '$bronze7',
+        },
+        '&:focus': {
+          boxShadow: '0 0 0 1px $colors$bronze9, inset 0 0 0 1px $colors$bronze0',
+        },
+      },
+
       violet: {
         backgroundColor: '$violet4',
         color: '$violet11',

@@ -2,7 +2,7 @@ export const docsRoutes = [
   {
     label: 'Overview',
     pages: [
-      { title: 'Introduction', slug: 'docs/introduction' },
+      { title: 'Introduction', slug: 'docs/overview' },
       { title: 'Guide', slug: 'docs/guide' },
     ],
   },
@@ -11,6 +11,7 @@ export const docsRoutes = [
     label: 'Getting Started',
     pages: [
       { title: 'Installation', slug: 'docs/installation' },
+      { title: 'Preview Installation', slug: 'docs/runpreview' },
       { title: 'Partitons', slug: 'docs/partitions' },
     ],
   },

@@ -4,7 +4,36 @@ description: ShastraOS Preview Testing Guide
 ---
 
 ### What is Preview
+**Very first version of ShastraOS for testing and prototyping**\
 ShastraOS Preview is non-installer Release, means you will not able to install the image file into your system. This is built for general testing and bug fixing.
 
-### Download ISO file
+## Download ISO file
 You can download ShastraOS from [OSDN (recommended)](https://osdn.net/projects/shastraos/downloads/77132/ShastraOS-preview-2022.11.15-x86_64.iso/) or Sourceforge mirrors.
+
+## Verify your ShastraOS ISO file
+While you can just download a ShastraOS ISO image, can you be really sure that it's the right file? With a few simple steps, you can verify the integrity of any ShastraOS ISO. Here's how to do it.
+
+### Displaying the Checksum for a File
+To calculate an `SHA256` checksum on a downloaded ISO file, use this `SHA265` command.
+```bash
+md5sum -b 'filename'
+```
+For a `MD5` checksum, use `MD5` instead with the same `-b` option
+
+### Here are the checksums for iso file `ShastraOS-preview-2022.11.15-x86_64.iso`
+
+`File Size 2,433,183,744 bytes`\
+`MD5 52b0380ca77487fdc88c2b78617e59a9`\
+`SHA1 d901e6957c0c44723a642edec6dff47461d3cfb9`\
+`SHA256 9ed21a7ad2d905199e4027b087c113985e8fae937e8ef8fe9e19c3b89bb13306`
+
+## Booting iso file using USB drive
+Insert USB drive into your PC.\
+Use Software Balena Etcher (For Linux Users) and Rufus (For Windows Users).\
+You can also use Ventoy (On other device)\
+After Booting ISO file, your system will be loaded.
+
+Now you are ready to find bugs and errors!
+
+### General Information
+Root Password - `live`

@@ -20,7 +20,7 @@ export function DocsPage({ children }: { children: React.ReactNode }) {
   const next = allDocsRoutes[currentPageIndex + 1];
 
   const GITHUB_URL = 'https://github.com';
-  const REPO_NAME = 'shastra-os/shastraos-site';
+  const REPO_NAME = 'shastra-os/site';
   const editUrl = `${GITHUB_URL}/${REPO_NAME}/edit/master/data${currentPath}.mdx`;
 
   React.useEffect(() => {

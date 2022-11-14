@@ -2,16 +2,14 @@ import { Box, Flex, Text } from '@modulz/design-system';
 
 const getBarColor = (name) => {
   switch (name) {
-    case 'Stitches':
-      return '$violet9';
-    case 'Stitches 0.2.0':
-      return '$violet9';
-    case 'Stitches 0.1.9':
-      return '$violet4';
-    case 'styled-components':
-      return '$amber9';
-    case 'Emotion':
-      return '$plum9';
+    case 'ShastraOS':
+      return '$indigo9';
+    case 'ShastraOS Preview':
+      return '$indigo9';
+    case 'ShastraOS Beta':
+      return '$indigo8';
+    case 'Installer':
+      return '$indigo8';
     default:
       return 'gray';
   }
@@ -33,7 +31,7 @@ export function BenchmarkChart({ data }) {
               whiteSpace: 'nowrap',
               ta: 'right',
               fontWeight:
-                result.name === 'Stitches' || result.name === 'Stitches 0.2.0' ? '500' : '400',
+                result.name === 'ShastraOS' || result.name === 'ShastraOS Preview' ? '500' : '400',
             }}
           >
             {result.name}

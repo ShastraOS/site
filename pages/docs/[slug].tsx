@@ -19,7 +19,7 @@ export default function Doc({ frontmatter, code }: Doc) {
 
   return (
     <>
-      <TitleAndMetaTags title={`${frontmatter.title} — Stitches`} />
+      <Titles title={`${frontmatter.title} — ShastraOS`} />
 
       <Text as="h1" size="8" css={{ fontWeight: 500, mb: '$2', lineHeight: '40px' }}>
         {frontmatter.title}

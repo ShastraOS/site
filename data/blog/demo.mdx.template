@@ -3,12 +3,12 @@ title: Title
 publishedAt: 'XXXXXX'
 description: lorem ipsum
 by: demo
-poster: blog/demo.png
+poster: blogs/demo.png
 ---
 
 <Image
   title="title"
-  src="/blog/demo.png"
+  src="/blogs/demo.png"
   size="hero"
 />
 

@@ -51,9 +51,9 @@ export function Header() {
             <Text>Docs</Text>
           </Link>
         </NextLink>
-        {/* <NextLink href="/blog" passHref>
+        {/* <NextLink href="/blogs" passHref>
           <Link variant="subtle" css={{ mr: '$5', '@bp2': { mr: '$7' } }}>
-            <Text>Blog</Text>
+            <Text>Blogs</Text>
           </Link>
         </NextLink> */}
         {/* <Link

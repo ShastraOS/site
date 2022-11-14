@@ -40,7 +40,7 @@ export function Hero() {
             },
           }}
         >
-          ShastraOS: Decentralized Desktop OS For 21st Centurary.
+          ShastraOS: Decentralized Desktop OS For 21st Centurary
         </Heading>
         <Paragraph
           size="2"
@@ -54,7 +54,8 @@ export function Hero() {
             },
           }}
         >
-        A desktop that brings full privacy and security with fluent exprience.
+        A desktop that brings full privacy and security with fluent exprience. <br />
+        Currently under development
         </Paragraph>
         <Flex css={{ '@bp2': { jc: 'center', my: '$5' } }}>
           <NextLink href="/preview" passHref>

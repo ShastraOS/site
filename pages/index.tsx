@@ -229,18 +229,15 @@ export default function Home() {
       />
       <Header />
       <Hero />
+      
 
       {/* <Flex css={{ justifyContent: 'center' }}>
         <Separator size="2" />
       </Flex> */}
-
-      {/* <Community /> */}
 {/* 
       <Flex css={{ justifyContent: 'center' }}>
         <Separator size="2" />
       </Flex> */}
-
-      {/* <FeaturesGrid /> */}
     </Box>
   );
 }

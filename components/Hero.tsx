@@ -57,7 +57,7 @@ export function Hero() {
         A desktop that brings full privacy and security with fluent exprience.
         </Paragraph>
         <Flex css={{ '@bp2': { jc: 'center', my: '$5' } }}>
-          <NextLink href="/docs" passHref>
+          <NextLink href="/preview" passHref>
             <HomepageButton as="a" color="violet" css={{ mr: '$3' }}>
               ShastraOS Preview
               <Box css={{ ml: '$1' }}>

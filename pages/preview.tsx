@@ -55,7 +55,7 @@ export default function Error() {
                     Download latest image file and try testing it on your device.
                 </Paragraph>
                 <Flex css={{ '@bp2': { jc: 'center', my: '$5' } }}>
-                    <NextLink href="https://osdn.net/projects/shastraos/downloads/77132/ShastraOS-preview-2022.10.18-x86_64.iso/" passHref>
+                    <NextLink href="https://osdn.net/projects/shastraos/downloads/77132/ShastraOS-preview-2022.11.15-x86_64.iso/" passHref>
                     <HomepageButton
                         css={{ mr: '$1' }}
                         as="a"

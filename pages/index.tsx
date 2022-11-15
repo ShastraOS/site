@@ -220,10 +220,10 @@ export default function Home() {
           position: 'absolute',
           zIndex: '-1',
           background:
-            'radial-gradient(circle at 15% 80%, $violet5, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 50% 20%, $indigo6, rgba(255, 255, 255, 0) 65%), radial-gradient(circle at 85% 80%, $plum3, rgba(255, 255, 255, 0) 35%)',
+            'radial-gradient(circle at 95% 10%, $indigo1, rgba(255, 255, 255, 0) 15%), radial-gradient(circle at 30% 20%, $plum6, rgba(255, 255, 255, 0) 45%), radial-gradient(circle at 85% 80%, $plum3, rgba(255, 255, 255, 0) 0%)',
           '@bp2': {
             background:
-              'radial-gradient(circle at 15% 80%, $violet5, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 50% 20%, $indigo6, rgba(255, 255, 255, 0) 65%), radial-gradient(circle at 85% 80%, $bronze3, rgba(255, 255, 255, 0) 35%)',
+              'radial-gradient(circle at 75% 20%, $indigo1, rgba(255, 255, 255, 0) 40%), radial-gradient(circle at 30% 20%, $plum6, rgba(255, 255, 255, 0) 50%), radial-gradient(circle at 85% 80%, $indigo1, rgba(255, 255, 255, 0) 0%)',
           },
         }}
       />

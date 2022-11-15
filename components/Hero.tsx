@@ -79,7 +79,7 @@ export function Hero() {
         </Paragraph>
         <Flex css={{ '@bp2': { mx: 210, jc: 'left', my: '$5' } }}>
           <NextLink href="/preview" passHref>
-            <HomepageButton as="a" color="violet" css={{ mr: '$3' }}>
+            <HomepageButton as="a" color="indigo" css={{ mr: '$3' }}>
               ShastraOS Preview
               <Box css={{ ml: '$1' }}>
                 <ArrowRightIcon />
@@ -134,7 +134,7 @@ export function Hero() {
                 width: '$7',
                 height: '$7',
                 borderRadius: '$round',
-                backgroundColor: '$violet5',
+                backgroundColor: '$indigo5',
                 color: '$violet10',
                 mb: '$4',
               }}
@@ -166,7 +166,7 @@ export function Hero() {
                 width: '$7',
                 height: '$7',
                 borderRadius: '$round',
-                backgroundColor: '$violet5',
+                backgroundColor: '$indigo5',
                 color: '$violet10',
                 mb: '$4',
               }}
@@ -199,7 +199,7 @@ export function Hero() {
                 width: '$7',
                 height: '$7',
                 borderRadius: '$round',
-                backgroundColor: '$violet5',
+                backgroundColor: '$indigo5',
                 color: '$violet10',
                 mb: '$4',
               }}
@@ -231,7 +231,7 @@ export function Hero() {
                 width: '$7',
                 height: '$7',
                 borderRadius: '$round',
-                backgroundColor: '$violet5',
+                backgroundColor: '$indigo5',
                 color: '$violet10',
                 mb: '$4',
               }}

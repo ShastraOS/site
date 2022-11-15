@@ -75,7 +75,7 @@ export function Hero() {
             },
           }}
         >
-        A desktop that brings full privacy and security with fluent exprience. <br />
+        A desktop that brings full privacy and security with fluent experience. <br />
         Currently under development
         </Paragraph>
         <Flex css={{ '@bp2': { mx: 210, jc: 'left', my: '$5' } }}>

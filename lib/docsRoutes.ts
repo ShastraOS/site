@@ -23,6 +23,12 @@ export const docsRoutes = [
       { title: 'Packages', slug: 'docs/packages' },
     ],
   },
+  {
+    label: 'Terms and Policies',
+    pages: [
+      { title: 'Preview Terms', slug: 'docs/previewterms' }
+    ]
+  }
 ];
 
 export const allDocsRoutes = docsRoutes.reduce((acc, curr) => {

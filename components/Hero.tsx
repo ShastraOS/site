@@ -41,7 +41,7 @@ export function Hero() {
             },
           }}
         >
-          ShastraOS
+          Shastra-OS
         </Heading>
         <Heading
         as="h2"
@@ -61,7 +61,7 @@ export function Hero() {
             },
           }}
         >
-          Decentralized Desktop OS For 21st Centurary
+          Decentralized Desktop OS For 21st Century!
         </Heading>
         <Paragraph
           size="2"

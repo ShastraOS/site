@@ -41,7 +41,7 @@ export function Hero() {
             },
           }}
         >
-          Shastra-OS
+          ShastraOS
         </Heading>
         <Heading
         as="h2"

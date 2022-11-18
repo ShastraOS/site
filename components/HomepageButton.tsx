@@ -23,8 +23,9 @@ export const HomepageButton = styled('button', {
     color: {
       gray: {
         color: '$slate11',
+        boxShadow: '0 0 0 0.1px $colors$slate4, inset 0 0 0 1px $colors$slate8',
         '&:hover': {
-          backgroundColor: '$slate5',
+          backgroundColor: '$slate3',
         },
         '&:focus': {
           boxShadow: '0 0 0 1px $colors$slate8, inset 0 0 0 1px $colors$slate8',

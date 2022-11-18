@@ -60,17 +60,17 @@ export const Footer = () => {
             </NextLink>
             <Text
               as="h4"
-              size="4"
+              size="5"
               css={{
                 lineHeight: '20px',
                 alignItems: 'center',
                 ml: '$6',
                 color: '$slate11',
                 pr: '$8',
-                '@bp2': { mt: '$6', ml: '2' },
+                '@bp2': { mt: '$6', ml: '4' },
               }}
             >
-              ShastraOS Preview 2022
+              ShastraOS
             </Text>
           </Flex>
           <Box>
@@ -80,14 +80,14 @@ export const Footer = () => {
             <ul>
               <li>
                 <Text as="p" size="3" css={{ mt: '$3', lineHeight: '20px' }}>
-                  <NextLink href="/docs/introduction" passHref>
+                  <NextLink href="/docs/overview" passHref>
                     <Link variant="subtle">Introduction</Link>
                   </NextLink>
                 </Text>
               </li>
               <li>
                 <Text as="p" size="3" css={{ mt: '$3', lineHeight: '20px' }}>
-                  <NextLink href="/docs/team" passHref>
+                  <NextLink href="/team" passHref>
                     <Link variant="subtle">Team</Link>
                   </NextLink>
                 </Text>
@@ -115,7 +115,7 @@ export const Footer = () => {
             <ul>
               <li>
                 <Text as="p" size="3" css={{ mt: '$3', lineHeight: '20px' }}>
-                  <NextLink href="/docs/quickguide" passHref>
+                  <NextLink href="/docs/devguide" passHref>
                     <Link variant="subtle">Quick Overview</Link>
                   </NextLink>
                 </Text>
@@ -150,7 +150,7 @@ export const Footer = () => {
             <ul>
               <li>
                 <Text as="p" size="3" css={{ mt: '$3', lineHeight: '20px' }}>
-                  <NextLink href="/docs/Licence" passHref>
+                  <NextLink href="https://raw.githubusercontent.com/Shastra-OS/shastraos-iso/master/LICENSE" passHref>
                     <Link variant="subtle">Licence</Link>
                   </NextLink>
                 </Text>

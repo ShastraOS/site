@@ -9,13 +9,13 @@ export const HomepageButton = styled('button', {
   fontFamily: '$untitled',
   borderRadius: '15px',
   lineHeight: 1,
-  fontWeight: 600,
+  fontWeight: 500,
   textDecoration: 'none',
   display: 'inline-flex',
   alignItems: 'center',
   userSelect: 'none',
   fontSize: '$4',
-  height: '$6',
+  height: '$7',
   px: '$3',
   transition: 'background-color 75ms ease',
 
@@ -26,6 +26,7 @@ export const HomepageButton = styled('button', {
         boxShadow: '0 0 0 0.1px $colors$slate4, inset 0 0 0 1px $colors$slate8',
         '&:hover': {
           backgroundColor: '$slate3',
+          color: '$slate12',
         },
         '&:focus': {
           boxShadow: '0 0 0 1px $colors$slate8, inset 0 0 0 1px $colors$slate8',
@@ -37,6 +38,8 @@ export const HomepageButton = styled('button', {
         color: '$indigo11',
         '&:hover': {
           backgroundColor: '$indigo6',
+          color: '$indigo12',
+          boxShadow: '0 0 0 0.1px $colors$indigo9, inset 0 0 0 1px $colors$indigo10',
         },
         '&:active': {
           backgroundColor: '$indigo7',

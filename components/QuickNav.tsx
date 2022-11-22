@@ -54,7 +54,7 @@ export function QuickNav() {
         }}
       >
         <Heading size="1" css={{ mb: '$3' }} id="site-quick-nav-heading">
-          Quick nav
+          Quick Index
         </Heading>
         <QuickNavUl>
           {headings.map(({ id, nodeName, innerText }) => {

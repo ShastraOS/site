@@ -10,8 +10,8 @@ export const docsRoutes = [
   {
     label: 'Getting Started',
     pages: [
-      { title: 'Installation', slug: 'docs/installation' },
       { title: 'Preview Installation', slug: 'docs/runpreview' },
+      { title: 'Installation', slug: 'docs/installation' },
       { title: 'Partitons', slug: 'docs/partitions' },
     ],
   },
@@ -21,6 +21,13 @@ export const docsRoutes = [
     pages: [
       { title: 'Updates', slug: 'docs/updates' },
       { title: 'Packages', slug: 'docs/packages' },
+    ],
+  },
+  {
+    label: 'Learn More',
+    pages: [
+      { title: 'FAQ', slug: 'docs/faq' },
+      { title: 'Changelog', slug: 'docs/changelog' },
     ],
   },
   {

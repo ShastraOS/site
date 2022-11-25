@@ -78,6 +78,20 @@ export default function Error() {
                 </Flex>
             </Container>
             <Container size="3">
+            <Paragraph
+                    size="2"
+                    as="h4"
+                    css={{
+                        mb: '$8',
+                        '@bp2': {
+                            mx: 210,
+                            ta: 'center',
+                            mb: '$9',
+                        },
+                    }}
+                >
+                    <NextLink href="mailto:info@shastraos.co" passHref>Contact us</NextLink> to get Early Preview Access
+                </Paragraph>
                 <Paragraph
                     size="1"
                     css={{

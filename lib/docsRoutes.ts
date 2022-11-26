@@ -3,7 +3,6 @@ export const docsRoutes = [
     label: 'Overview',
     pages: [
       { title: 'Introduction', slug: 'docs/overview' },
-      { title: 'Guide', slug: 'docs/guide' },
     ],
   },
 

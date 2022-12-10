@@ -1,8 +1,64 @@
 ---
-title: Partitioning Guide - Erase Disk
-description: Erase Disk - commonly used type of partitioning
+title: Partitioning Guide
+description: Partitioning guide for ShastraOS installation through calamares.
 ---
 
-## Erase Disk  - Partitioning
+## Notes
+- Be prepared with backups, disk partitioning will erase all your data.
+- We always recommend reading Arch Linux official guide for disk partitions. [Read it here](https://wiki.archlinux.org/title/Partitioning).
 
+---
 
+## `Erase disk` Partitioning
+If you are installing ShastraOS on any virtual machine, you can easily go ahead with this type of partitioning.
+Installer will erase your whole disk and install ShastraOS on it. If you want a clean ShastraOS installation, by completely removing Windows or other OS, go with this partitioning. You will also have an option to create 8gb swap or 16gb swap with hibernate.
+
+---
+
+## `Install along side` Partitioning
+You will get the option to install ShastraOS along with your previous OS. It will create an option to edit the existing partition and create a separate partition of ShastraOS on the same disk.
+
+---
+
+## `Replace a Partition` Partitioning
+You will get the option to replace a partition on the selected disk. The partition you selected will get formated and ShastraOS will get installed on that.
+
+---
+
+## `Manual Partition` Partitioning
+Here comes the scary part where you can easily get your things messed up. So we always recommend reading the documentation properly.
+
+If you have an empty disk. Create a Partition table. For UEFI, use the GPT partition table and for BIOS, use MBR.
+If you already have some partitions, and dont want to delete your existing data. You dont need to create the partition table.
+You need atleast 64gb to move ahead and make custom partitions.
+
+### Boot Partition
+- Select the `512gb` from free space
+- File system to be `fat32`
+- Mount point should be `boot/efi` for UEFI
+- Mount point should be `boot` for GPT
+- FS Label `efi`
+- Flags `boot`
+
+### Swap Partition
+We recommend creating swap if you have less than 16gb of RAM.
+- Select the `8gb` from free space if (it depends how much space you have and how much less ram you have)
+- File system to be `linuxswap`
+- FS Label `swap`
+- Flags `swap`
+
+### Root Partition
+- Select atleast `48gb` from free space (If you have more disk space you can increase it upto 100gb. And if you not want to create a separate home partition, give left over space to root partition.)
+- File system to be `ext4`
+- If you want to encrypt you disk with password you can tick `encrypt`
+- Mount point should be `/`
+- FS Label `root`
+- Flags `root`
+
+### Home Partition
+It is not necessary, but we recommend creating a separate home partition.
+- Select rest of the disk space you have left.
+- File system to be `ext4`
+- If you want to encrypt you disk with password you can tick `encrypt`
+- Mount point should be `/home`
+- FS Label `home`

@@ -55,7 +55,7 @@ export default function Error() {
                     Download latest image file and try testing it on your device.
                 </Paragraph>
                 <Flex css={{ '@bp2': { jc: 'center', my: '$5' } }}>
-                    <NextLink href="\" passHref>
+                    <NextLink href="/docs/runpreview" passHref>
                         <HomepageButton
                             css={{ mr: '$1' }}
                             as="a"
@@ -90,7 +90,7 @@ export default function Error() {
                         },
                     }}
                 >
-                    <NextLink href="mailto:info@shastraos.co" passHref>Contact us</NextLink> to get Early Preview Access
+                    <NextLink href="mailto:info@shastraos.org" passHref>Contact us</NextLink> to get Early Preview Access
                 </Paragraph>
                 <Paragraph
                     size="1"

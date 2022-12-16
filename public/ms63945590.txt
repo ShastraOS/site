@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "shastraos.org",
-  "Id": "0ec1c242-758e-4b3a-b5d8-43af0bb9db09"
-}

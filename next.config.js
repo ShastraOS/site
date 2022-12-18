@@ -14,6 +14,12 @@ module.exports = withPlugins([withTM, withOptimizedImages, withVideos], {
 
     return config;
   },
+  // To deploy on a decentralized storage
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  trailingSlash: true,
   // Next.js config
   async redirects() {
     return [

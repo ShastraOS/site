@@ -75,8 +75,8 @@ export function Hero() {
             },
           }}
         >
-        A desktop that brings full privacy and security with fluent experience. <br />
-        Currently under development
+          You deserve a better workstation! <br />
+        A workstation that brings full privacy and security with fluent experience.
         </Paragraph>
         <Flex css={{ '@bp2': { mx: 210, jc: 'left', my: '$5' } }}>
           <NextLink href="/preview" passHref>

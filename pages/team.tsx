@@ -8,8 +8,19 @@ import Avatars from '@components/Avatars';
 import NextLink from 'next/link';
 import { StarFilledIcon } from '@modulz/radix-icons';
 
+interface SocialLink {
+    platform: string;
+    url: string;
+  }
+  
+  interface TeamMember {
+    name: string;
+    avatarUrl: string;
+    socialLinks: SocialLink[];
+  }
+  
 
-export default function Error() {
+export default function Team() {
 
     return (
         <><Titles title="ShastraOS Team" />

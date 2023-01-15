@@ -8,23 +8,22 @@ import { DocsPage } from '@components/DocsPage';
 import '../styles/styles.css';
 
 const globalStyles = globalCss({
-  // Commenting out while we fix flashing issues
-  // '@font-face': [
-  //   {
-  //     fontFamily: 'Untitled Sans',
-  //     fontWeight: '400',
-  //     fontDisplay: 'swap',
-  //     src:
-  //       'url(/fonts/UntitledSansWeb-Regular.woff2) format("woff2"), url(/fonts/UntitledSansWeb-Regular.woff) format("woff")',
-  //   },
-  //   {
-  //     fontFamily: 'Untitled Sans',
-  //     fontWeight: '500',
-  //     fontDisplay: 'swap',
-  //     src:
-  //       'url(/fonts/UntitledSansWeb-Medium.woff2) format("woff2"), url(/fonts/UntitledSansWeb-Medium.woff) format("woff")',
-  //   },
-  // ],
+  '@font-face': [
+    {
+      fontFamily: 'Untitled Sans',
+      fontWeight: '400',
+      fontDisplay: 'swap',
+      src:
+        'url(/fonts/UntitledSansWeb-Regular.woff2) format("woff2"), url(/fonts/UntitledSansWeb-Regular.woff) format("woff")',
+    },
+    {
+      fontFamily: 'Untitled Sans',
+      fontWeight: '500',
+      fontDisplay: 'swap',
+      src:
+        'url(/fonts/UntitledSansWeb-Medium.woff2) format("woff2"), url(/fonts/UntitledSansWeb-Medium.woff) format("woff")',
+    },
+  ],
 
   html: {
     overflowX: 'hidden',

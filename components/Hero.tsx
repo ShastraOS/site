@@ -24,29 +24,12 @@ export function Hero() {
     >
       <Container size="4">
         <Heading
-        as="h1"
+        as="h2"
           size="4"
           css={{
-            mb: '$4',
-            '@bp1': {
-              pr: 100,
-            },
-            fontWeight: 700,
-            '@bp2': {
-              ta: 'left',
-              px: 180,
-            },
-            '@bp3': {
-              px: 200,
-            },
-          }}
-        >
-          ShastraOS
-        </Heading>
-        <Heading
-        as="h2"
-          size="3"
-          css={{
+            background: 'linear-gradient(to right, #c3bfff, #3de1ff)',
+          '-webkit-background-clip': 'text',
+          '-webkit-text-fill-color': 'transparent',
             mb: '$3',
             '@bp1': {
               pr: 100,
@@ -60,8 +43,29 @@ export function Hero() {
               px: 200,
             },
           }}
-        >
-          Decentralized Desktop OS For 21st Century!
+        >You deserve a better workstation!
+        </Heading>
+        <Heading
+        as="h3"
+          size="2"
+          css={{
+            background: 'linear-gradient(to left, #ad67cd, #b48fff)',
+          '-webkit-background-clip': 'text',
+          '-webkit-text-fill-color': 'transparent',
+            mb: '$3',
+            '@bp1': {
+              pr: 100,
+            },
+            fontWeight: 700,
+            '@bp2': {
+              ta: 'left',
+              px: 180,
+            },
+            '@bp3': {
+              px: 200,
+            },
+          }}
+        >Decentralized Desktop OS For 21st Century!
         </Heading>
         <Paragraph
           size="2"
@@ -75,7 +79,6 @@ export function Hero() {
             },
           }}
         >
-          You deserve a better workstation! <br />
         A workstation that brings full privacy and security with fluent experience.
         </Paragraph>
         <Flex css={{ '@bp2': { mx: 210, jc: 'left', my: '$5' } }}>

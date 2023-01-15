@@ -20,6 +20,7 @@
     "@svgr/webpack": "^6.5.1",
     "copy-to-clipboard": "3.3.1",
     "date-fns": "2.19.0",
+    "fontsource-jetbrains-mono": "^4.0.0",
     "framer-motion": "^7.6.6",
     "glob": "7.1.6",
     "gray-matter": "4.0.2",

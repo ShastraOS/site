@@ -150,7 +150,7 @@ export const Footer = () => {
             <ul>
               <li>
                 <Text as="p" size="3" css={{ mt: '$3', lineHeight: '20px' }}>
-                  <NextLink href="https://raw.githubusercontent.com/Shastra-OS/shastraos-iso/master/LICENSE" passHref>
+                  <NextLink href="https://raw.githubusercontent.com/ShastraOS/shastraos-iso/master/LICENSE" passHref>
                     <Link variant="subtle">Licence</Link>
                   </NextLink>
                 </Text>

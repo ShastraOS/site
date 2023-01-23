@@ -4,32 +4,53 @@ import { HomepageButton } from '@components/HomepageButton';
 import { ArrowRightIcon, ExternalLinkIcon, CopyIcon, CheckIcon } from '@modulz/radix-icons';
 import { Titles } from '@components/Titles';
 import { Header } from '@components/Header';
+import { Connection } from '@solana/web3.js';
 import NextLink from 'next/link';
 import { StarFilledIcon } from '@modulz/radix-icons';
+import { useState } from 'react';
 
+
+function Dapp() {
+    // const [walletAddress, settWalletAddress] = useState(null)
+    
+    window.onload = async function () {
+        // try {
+        //     if (window.solana) {
+        //         const solana = window.solana
+        //         if(solana.isPhantom) {
+        //             console.log('Wallet found!')
+        //             const res = await solana.connect({ onlyIfTrusted: true })
+        //             console.log('Connected with pub key:', res.publicKey.toString())
+        //             settWalletAddress(res.publicKey.toString())
+        //         }
+        //     }
+        //     else {
+        //         alert('Oops! Wallet not found')
+        //     }
+        // } catch (error){
+        //     console.error(error)
+        // }
+        
+    }
+
+}
 
 export default function PreviewPass() {
 
     return (
-        <><Titles title="ShastraOS Preview Release" />
-        <Box
-        css={{
-          top: 0,
-          right: 0,
-          bottom: 0,
-          left: 0,
-          position: 'absolute',
-          zIndex: '-1',
-          background:
-            'radial-gradient(circle at 95% 60%, $indigo3, rgba(255, 255, 255, 0) 15%), radial-gradient(circle at 30% 20%, $plum6, rgba(255, 255, 255, 0) 45%), radial-gradient(circle at 85% 80%, $plum2, rgba(255, 255, 255, 0) 0%)',
-          '@bp2': {
-            background:
-              'radial-gradient(circle at 75% 50%, $indigo3, rgba(255, 255, 255, 0) 40%), radial-gradient(circle at 30% 20%, $plum2, rgba(255, 255, 255, 0) 50%), radial-gradient(circle at 85% 80%, $indigo1, rgba(255, 255, 255, 0) 0%)',
-          },
-        }}
-      />
-            <Header />
-            <Container size="4">
+        <><Titles title="ShastraOS Preview Release" /><Box
+            css={{
+                top: 0,
+                right: 0,
+                bottom: 0,
+                left: 0,
+                position: 'absolute',
+                zIndex: '-1',
+                background: 'radial-gradient(circle at 95% 60%, $indigo3, rgba(255, 255, 255, 0) 15%), radial-gradient(circle at 30% 20%, $plum6, rgba(255, 255, 255, 0) 45%), radial-gradient(circle at 85% 80%, $plum2, rgba(255, 255, 255, 0) 0%)',
+                '@bp2': {
+                    background: 'radial-gradient(circle at 75% 50%, $indigo3, rgba(255, 255, 255, 0) 40%), radial-gradient(circle at 30% 20%, $plum2, rgba(255, 255, 255, 0) 50%), radial-gradient(circle at 85% 80%, $indigo1, rgba(255, 255, 255, 0) 0%)',
+                },
+            }} /><Header /><Container size="4">
                 <Heading
                     as="h1"
                     size="3"
@@ -65,6 +86,12 @@ export default function PreviewPass() {
                     Download latest image file and try testing it on your device.
                 </Paragraph>
                 <Flex css={{ '@bp2': { jc: 'center', my: '$5' } }}>
+                    <HomepageButton
+                        css={{ mr: '$1' }}
+                        onClick={Dapp}
+                    >
+                        Connect Wallet
+                    </HomepageButton>
                     <NextLink href="/docs/runpreview" passHref>
                         <HomepageButton
                             css={{ mr: '$1' }}
@@ -80,15 +107,14 @@ export default function PreviewPass() {
                         </HomepageButton>
                     </NextLink>
                     {/* <HomepageButton href="/docs/runpreview" as="a" css={{ mr: '$3' }}>
-                        Installation Guide
-                        <Box css={{ ml: '$1' }}>
-                            <ArrowRightIcon />
-                        </Box>
-                    </HomepageButton> */}
+        Installation Guide
+        <Box css={{ ml: '$1' }}>
+            <ArrowRightIcon />
+        </Box>
+    </HomepageButton> */}
                 </Flex>
-            </Container>
-            <Container size="3">
-            <Paragraph
+            </Container><Container size="3">
+                <Paragraph
                     size="2"
                     as="h4"
                     css={{
@@ -118,7 +144,7 @@ export default function PreviewPass() {
                     <br />
                     But we are also working on arm64 latest version CPUs.
                 </Paragraph>
-            </Container>
-        </>
+            </Container></>
+        
     );
 }

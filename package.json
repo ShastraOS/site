@@ -24,6 +24,7 @@
     "@radix-ui/react-compose-refs": "0.1.0",
     "@radix-ui/react-context": "0.1.1",
     "@radix-ui/react-use-callback-ref": "0.1.0",
+    "@solana/web3.js": "^1.73.0",
     "@svgr/webpack": "^6.5.1",
     "clsx": "1.2.1",
     "copy-to-clipboard": "3.3.1",

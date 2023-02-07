@@ -5,7 +5,7 @@
     <br />
     <i>~ Currently Under Development ~</i>
     <br />
-    <a href="https://shastraos.co"><strong>shastraos.co</strong></a>
+    <a href="https://shastraos.org"><strong>shastraos.org</strong></a>
     <br />
     <br />
   </p>
@@ -15,6 +15,10 @@
   <img width="70%" height="70%" src="https://raw.githubusercontent.com/Shastra-OS/site/main/public/screenshots/banner.png" alt="Banner">
 </p>
     <br />
+    <br />
+    <a href="https://gitpod.io/#https://github.com/ShastraOS/site"><strong>
+      <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Logo"></strong>
+    </a>
     
 ## Tools Used
 - Next.js

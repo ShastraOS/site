@@ -22,6 +22,16 @@ export const docsRoutes = [
       { title: 'Packages', slug: 'docs/packages' },
     ],
   },
+
+  {
+    label: 'Contribute',
+    pages: [
+      { title: 'Contribution', slug: 'docs/contribute' },
+      { title: 'Code Of Conduct', slug: 'docs/coc' },
+      { title: 'Sponsor', slug: 'docs/sponsor' },
+    ],
+  },
+
   {
     label: 'Learn More',
     pages: [

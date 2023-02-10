@@ -85,9 +85,6 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
   },
-  "engines": {
-    "node": "^12 || ^14 || ^16 || ^18"
-  },
   "browserslist": [
     "last 2 chrome version",
     "last 2 firefox version",

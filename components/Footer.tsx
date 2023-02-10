@@ -115,14 +115,7 @@ export const Footer = () => {
             <ul>
               <li>
                 <Text as="p" size="3" css={{ mt: '$3', lineHeight: '20px' }}>
-                  <NextLink href="/docs/devguide" passHref>
-                    <Link variant="subtle">Quick Overview</Link>
-                  </NextLink>
-                </Text>
-              </li>
-              <li>
-                <Text as="p" size="3" css={{ mt: '$3', lineHeight: '20px' }}>
-                  <NextLink href="/docs" passHref>
+                  <NextLink href="wiki.shastraos.org" passHref>
                     <Link variant="subtle">Documentation</Link>
                   </NextLink>
                 </Text>

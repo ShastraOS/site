@@ -24,13 +24,13 @@
     "@radix-ui/react-compose-refs": "0.1.0",
     "@radix-ui/react-context": "0.1.1",
     "@radix-ui/react-use-callback-ref": "0.1.0",
-    "@solana/web3.js": "^1.73.0",
+    "@solana/web3.js": "^1.73.2",
     "@svgr/webpack": "^6.5.1",
     "clsx": "1.2.1",
     "copy-to-clipboard": "3.3.1",
     "date-fns": "2.19.0",
     "fontsource-jetbrains-mono": "^4.0.0",
-    "framer-motion": "^7.6.6",
+    "framer-motion": "^7.10.3",
     "glob": "7.1.6",
     "gray-matter": "4.0.2",
     "hast-util-to-html": "7.1.2",
@@ -66,8 +66,8 @@
     "@dfinity/agent": "0.15.1",
     "@dfinity/candid": "0.15.1",
     "@dfinity/principal": "0.15.1",
-    "@swc/cli": "^0.1.59",
-    "@swc/core": "^1.3.27",
+    "@swc/cli": "^0.1.61",
+    "@swc/core": "^1.3.35",
     "@types/node": "14.14.33",
     "@types/react": "17.0.3",
     "assert": "2.0.0",
@@ -77,12 +77,13 @@
     "html-webpack-plugin": "5.5.0",
     "prettier": "2.2.1",
     "process": "0.11.10",
+    "prop-types": "^15.8.1",
     "stream-browserify": "3.0.0",
-    "terser-webpack-plugin": "^5.3.3",
+    "terser-webpack-plugin": "^5.3.6",
     "typescript": "4.2.3",
     "util": "0.12.4",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.8.1"
+    "webpack-dev-server": "^4.11.1"
   },
   "engines": {
     "node": "^12 || ^14 || ^16 || ^18"
@@ -92,5 +93,8 @@
     "last 2 firefox version",
     "last 2 safari version",
     "last 2 edge version"
-  ]
+  ],
+  "peerDependencies": {
+    "prop-types": "^15.6.0"
+  }
 }

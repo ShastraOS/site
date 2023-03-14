@@ -60,7 +60,7 @@
     "seamless-scroll-polyfill": "1.2.3",
     "unified": "9.2.1",
     "unist-util-visit": "2.0.3",
-    "webpack": "^5.75.0"
+    "webpack": "^5.76.0"
   },
   "devDependencies": {
     "@dfinity/agent": "0.15.1",

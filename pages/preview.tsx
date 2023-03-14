@@ -86,12 +86,6 @@ export default function PreviewPass() {
                     Download latest image file and try testing it on your device.
                 </Paragraph>
                 <Flex css={{ '@bp2': { jc: 'center', my: '$5' } }}>
-                    <HomepageButton
-                        css={{ mr: '$1' }}
-                        onClick={Dapp}
-                    >
-                        Connect Wallet
-                    </HomepageButton>
                     <NextLink href="/docs/runpreview" passHref>
                         <HomepageButton
                             css={{ mr: '$1' }}

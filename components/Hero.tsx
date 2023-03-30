@@ -1,10 +1,9 @@
 import React from 'react';
 import NextLink from 'next/link';
-import { Section, Container, Box, Heading, Grid, Flex, Tooltip, Text, IconButton, Separator, theme, Paragraph, } from '@modulz/design-system';
+import { Section, Container, Box, Heading, Flex, Paragraph, } from '@modulz/design-system';
 import { HomepageButton } from '@components/HomepageButton';
-import { ArrowRightIcon, ExternalLinkIcon, CopyIcon, CheckIcon } from '@modulz/radix-icons';
-import { FeaturesHero } from './FeaturesHero';
-import copy from 'copy-to-clipboard';
+import { ArrowRightIcon, ExternalLinkIcon,} from '@modulz/radix-icons';
+import { Community } from './Community';
 
 export function Hero() {
   const [hasCopied, setHasCopied] = React.useState(false);
@@ -27,7 +26,7 @@ export function Hero() {
         as="h2"
           size="4"
           css={{
-            background: 'linear-gradient(to right, #c3bfff, #3de1ff)',
+            background: 'linear-gradient(to right, #bfe5ff, #9e77ed)',
           '-webkit-background-clip': 'text',
           '-webkit-text-fill-color': 'transparent',
             mb: '$3',
@@ -82,30 +81,21 @@ export function Hero() {
         A workstation that brings full privacy and security with fluent experience.
         </Paragraph>
         <Flex css={{ '@bp2': { mx: 210, jc: 'left', my: '$5' } }}>
-          <NextLink href="/preview" passHref>
-            <HomepageButton as="a" color="indigo" css={{ mr: '$3' }}>
-              ShastraOS Preview
-              <Box css={{ ml: '$1' }}>
-                <ArrowRightIcon />
-              </Box>
-            </HomepageButton>
-          </NextLink>
           <HomepageButton
             css={{ mr: '$1' }}
             as="a"
-            href="https://guild.xyz/shastraos"
+            href="/preview"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Join Community
+            Developer Preview
             <Box css={{ ml: '$1' }}>
               <ExternalLinkIcon />
             </Box>
           </HomepageButton>
         </Flex>
       </Container>
-
-      <FeaturesHero />
+      <Community />
       </Section>
   );
 }

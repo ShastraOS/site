@@ -1,5 +1,5 @@
 <p align="center">
-   <img width="140" height="140" src="https://github.com/Shastra-OS/.github/blob/main/profile/assets/logo.png" alt="Logo">
+   <img width="80" height="80" src="https://raw.githubusercontent.com/ShastraOS/.github/main/profile/assets/round-icon-shastraos.png" alt="Logo">
   <p align="center">
   Website for ShastraOS
     <br />

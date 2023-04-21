@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img width="70%" height="70%" src="https://raw.githubusercontent.com/Shastra-OS/site/main/public/screenshots/banner.png" alt="Banner">
+  <img width="70%" height="70%" src="https://raw.githubusercontent.com/vivekpal1/site/main/public/screenshots/banner.png" alt="Banner">
 </p>
     <br />
     <br />

@@ -19,8 +19,9 @@
     <a href="https://gitpod.io/#https://github.com/ShastraOS/site"><strong>
       <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Logo"></strong>
     </a>
-    
+
 ## Tools Used
+
 - Next.js
 - TypeScript
 - TailwindCSS

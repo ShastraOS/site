@@ -19,7 +19,9 @@
     <a href="https://gitpod.io/#https://github.com/ShastraOS/site"><strong>
       <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Logo"></strong>
     </a>
-
+    
+## Activity
+![Activity](https://repobeats.axiom.co/api/embed/ff58acb9be6fe6ba955dcace1d435cb3446be569.svg "analytics image")
 ## Tools Used
 
 - Next.js
